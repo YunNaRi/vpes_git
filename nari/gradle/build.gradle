@@ -1,0 +1,16 @@
+buildscript {
+  dependencies {
+    classpath files("C:\\Users\\nryun\\AppData\\Local\\Suresofttech\\STATIC Toolbox\\apps\\STATIC Client for Java v1.2.8\\build-tools\\static-gradle-plugin\\static-gradle-plugin-1.0-SNAPSHOT.jar")
+  }
+}
+
+apply plugin: 'static'
+
+apply plugin:'java'
+
+group 'STATIC'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}

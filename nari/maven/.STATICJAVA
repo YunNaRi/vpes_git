@@ -1,0 +1,28 @@
+{
+  "rootDir": "D:\\VPES_mini\\nari\\maven",
+  "javaVersion": "1.5",
+  "modules": [
+    {
+      "moduleName": "STATIC_MAVEN",
+      "baseDir": "D:\\VPES_mini\\nari\\maven",
+      "main": {
+        "sources": [
+          "D:\\VPES_mini\\nari\\maven\\src\\main\\java"
+        ],
+        "libraries": [],
+        "binaries": [
+          "D:\\VPES_mini\\nari\\maven\\target\\classes"
+        ]
+      },
+      "test": {
+        "sources": [
+          "D:\\VPES_mini\\nari\\maven\\src\\test\\java"
+        ],
+        "libraries": [
+          "D:\\VPES_mini\\nari\\maven\\target\\classes"
+        ],
+        "binaries": []
+      }
+    }
+  ]
+}

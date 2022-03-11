@@ -1,0 +1,112 @@
+[
+  {
+    "startLine": 1,
+    "startCol": -1,
+    "endLine": 1,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1200",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Using directive should appear within a namespace declaration"
+  },
+  {
+    "startLine": 2,
+    "startCol": -1,
+    "endLine": 2,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1200",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Using directive should appear within a namespace declaration"
+  },
+  {
+    "startLine": 3,
+    "startCol": -1,
+    "endLine": 3,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1200",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Using directive should appear within a namespace declaration"
+  },
+  {
+    "startLine": 4,
+    "startCol": -1,
+    "endLine": 4,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1200",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Using directive should appear within a namespace declaration"
+  },
+  {
+    "startLine": 5,
+    "startCol": -1,
+    "endLine": 5,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1200",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Using directive should appear within a namespace declaration"
+  },
+  {
+    "startLine": 9,
+    "startCol": -1,
+    "endLine": 9,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1400",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Element 'Program' should declare an access modifier"
+  },
+  {
+    "startLine": 11,
+    "startCol": -1,
+    "endLine": 11,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1400",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Element 'Main' should declare an access modifier"
+  },
+  {
+    "startLine": 9,
+    "startCol": -1,
+    "endLine": 9,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1600",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "Elements should be documented"
+  },
+  {
+    "startLine": 1,
+    "startCol": -1,
+    "endLine": 1,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1633",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Program.cs",
+    "message": "The file header is missing or not located at the top of the file."
+  },
+  {
+    "startLine": 1,
+    "startCol": -1,
+    "endLine": 1,
+    "endCol": -1,
+    "severity": -1,
+    "ruleSet": null,
+    "rule": "SA1633",
+    "path": "D:\\VPES_mini\\nari\\visual_studio_csharp\\STATIC_CSHARP_EXAMPLE\\Properties\\AssemblyInfo.cs",
+    "message": "The file header is missing or not located at the top of the file."
+  }
+]

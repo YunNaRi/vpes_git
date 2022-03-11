@@ -1,0 +1,106 @@
+[INFO ] [main] Importing project.
+[INFO ] [main] Importing ruleSet.
+[INFO ] [main] Importing analysis exclusion.
+[INFO ] [main] Creating new revision.
+[INFO ] [main] ----------------------SolutionBuilder----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.6\SolutionBuilder\SolutionBuilder.exe,-s,STATIC_CSHARP_EXAMPLE.sln,-o,D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231,-c,D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\sb_option.json,"]
+[INFO ] [SolutionBuilder] Active code page: 65001
+[INFO ] [SolutionBuilder] [INFO] *******************************
+[INFO ] [SolutionBuilder] [INFO] SolutionBuilder 1.2.0.1
+[INFO ] [SolutionBuilder] [INFO] *******************************
+[INFO ] [SolutionBuilder] [INFO] Parsing the arguments.
+[INFO ] [SolutionBuilder] [INFO] - Solution file: D:\VPES_mini\nari\visual_studio_csharp\STATIC_CSHARP_EXAMPLE.sln
+[INFO ] [SolutionBuilder] [INFO] - Output path  : D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231
+[INFO ] [SolutionBuilder] [INFO] - Config path  : D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\sb_option.json
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] SetEnvVariable - MSBUILD_EXE_PATH :C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
+[INFO ] [SolutionBuilder] [INFO] Open the solution file.
+[INFO ] [SolutionBuilder] [INFO] Open the project file(s).
+[INFO ] [SolutionBuilder] [INFO] Collecting the data.
+[INFO ] [SolutionBuilder] [INFO] Start Compile.
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] Project: STATIC_CSHARP_EXAMPLE
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] Compilation Finished
+[INFO ] [SolutionBuilder] [INFO] assemblyName / OutPutType - STATIC_CSHARP_EXAMPLE / Exe
+[INFO ] [SolutionBuilder] [INFO] extension - .exe
+[INFO ] [SolutionBuilder] [INFO] Project option - STATIC_CSHARP_EXAMPLE, |
+[INFO ] [SolutionBuilder] [INFO] OutputPath - D:\VPES_mini\nari\visual_studio_csharp\STATIC_CSHARP_EXAMPLE\bin\Debug\STATIC_CSHARP_EXAMPLE.exe
+[INFO ] [SolutionBuilder] [INFO] Original Output Path: D:\VPES_mini\nari\visual_studio_csharp\STATIC_CSHARP_EXAMPLE\bin\Debug\STATIC_CSHARP_EXAMPLE.exe
+[INFO ] [SolutionBuilder] [INFO] D:\VPES_mini\nari\visual_studio_csharp\STATIC_CSHARP_EXAMPLE\bin\Debug\STATIC_CSHARP_EXAMPLE.exe is exist
+[INFO ] [SolutionBuilder] [INFO] Create .STATICCSHARP file.
+[INFO ] [SolutionBuilder] [INFO] Execution TIme: 00:00:04
+[INFO ] [main] Start Analysis.
+[INFO ] [main] Updating revision.: PENDING
+[INFO ] [main] Updating revision.: ANALYZING
+[INFO ] [main] -----------------------FxCopExecutor-----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe,/file:D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\Compile\STATIC_CSHARP_EXAMPLE\net461\STATIC_CSHARP_EXAMPLE.exe,/out:D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\1646700179107.fxcop.xml,/ruleset:-D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\all.ruleset,/ruleset:+D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\active.ruleset,/gac,"]
+[INFO ] [FxCopExecutor] Active code page: 65001
+[INFO ] [FxCopExecutor] Microsoft (R) FxCop 명령줄 도구, 버전 16.0(16.0.29724.72) X86
+[INFO ] [FxCopExecutor] Copyright (C) Microsoft Corporation, All Rights Reserved.
+[INFO ] [FxCopExecutor] 
+[INFO ] [FxCopExecutor] dataflowrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] designrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] globalizationrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] interoperabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] maintainabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] mobilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] namingrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] performancerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] portabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] reliabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securitytransparencyrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] usagerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] STATIC_CSHARP_EXAMPLE.exe을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Introspection 엔진을 초기화하고 있습니다...
+[INFO ] [FxCopExecutor] 분석하고 있습니다...
+[INFO ] [FxCopExecutor] 분석 완료.
+[INFO ] [FxCopExecutor] 2 메시지를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\1646700179107.fxcop.xml에 보고서를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] 완료:00:00:01.7365727
+[INFO ] [main] ----------------------StyleCopExecutor----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.6\StyleCopCmd\StyleCopCmd.exe,/file:STATIC_CSHARP_EXAMPLE.sln,/out:D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\1646700181382.stylecop.json,/rules:D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\active_rules.json,/config:D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\sb_option.json,"]
+[INFO ] [StyleCopExecutor] Active code page: 65001
+[INFO ] [StyleCopExecutor] [INFO] *******************************
+[INFO ] [StyleCopExecutor] [INFO] StyleCopCmd 1.2.0.0
+[INFO ] [StyleCopExecutor] [INFO] *******************************
+[INFO ] [StyleCopExecutor] [INFO] Parsing the arguments.
+[INFO ] [StyleCopExecutor] [INFO] Solution file: STATIC_CSHARP_EXAMPLE.sln
+[INFO ] [StyleCopExecutor] [INFO] Output path  : D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\1646700181382.stylecop.json
+[INFO ] [StyleCopExecutor] [INFO] Loaded STATIC_CSHARP_EXAMPLE.sln in 2523ms
+[INFO ] [StyleCopExecutor] [INFO] Start Analysis
+[INFO ] [StyleCopExecutor] [INFO] Finish Analysis
+[INFO ] [StyleCopExecutor] [INFO] SA1200: 5 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1400: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1600: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1633: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] Found 10 diagnostics in 1217ms
+[INFO ] [StyleCopExecutor] [INFO] Write diagnostics to output file
+[INFO ] [StyleCopExecutor] [INFO] Execution Time: 00:00:03
+[INFO ] [main] ----------------------MetricCalculator----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.6\MetricCalculator\MetricCalculator.exe,-s,STATIC_CSHARP_EXAMPLE.sln,-e,D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\.excluded,-o,D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231,-c,D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231\sb_option.json,"]
+[INFO ] [MetricCalculator] Active code page: 65001
+[INFO ] [MetricCalculator] [INFO] *******************************
+[INFO ] [MetricCalculator] [INFO] MetricCalculator 1.2.0.0
+[INFO ] [MetricCalculator] [INFO] *******************************
+[INFO ] [MetricCalculator] [INFO] Parsing the arguments.
+[INFO ] [MetricCalculator] [INFO] - Solution file: D:\VPES_mini\nari\visual_studio_csharp\STATIC_CSHARP_EXAMPLE.sln
+[INFO ] [MetricCalculator] [INFO] - Output path  : D:\VPES_mini\nari\visual_studio_csharp\.static\TEST1231
+[INFO ] [MetricCalculator] 
+[INFO ] [MetricCalculator] [INFO] Open the solution file.
+[INFO ] [MetricCalculator] [INFO] Initialize data.
+[INFO ] [MetricCalculator] [INFO] Start calculating metrics.
+[INFO ] [MetricCalculator] [INFO] Start collecting information of the called function(s)
+[INFO ] [MetricCalculator] [INFO] [1/1] STATIC_CSHARP_EXAMPLE
+[INFO ] [MetricCalculator] [INFO] Execution Time: 00:00:04
+[INFO ] [main] Collecting File committer
+[WARN ] [main] null
+[INFO ] [main] Updating revision.: FINISHED
+[INFO ] [main] Uploading project source file.
+[INFO ] [main] Creating defect file for upload.
+[INFO ] [main] Uploading defects.
+[INFO ] [main] Creating metric file for upload.
+[INFO ] [main] Uploading metrics.
+[INFO ] [main] Uploading analysis log.
+[INFO ] [main] Finish Analysis.

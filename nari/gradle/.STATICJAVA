@@ -1,0 +1,31 @@
+{
+  "rootDir": "D:\\VPES_mini\\nari\\gradle",
+  "javaVersion": "1.8",
+  "modules": [
+    {
+      "moduleName": "STATIC_GRADLE",
+      "baseDir": "D:\\VPES_mini\\nari\\gradle",
+      "main": {
+        "sources": [
+          "D:\\VPES_mini\\nari\\gradle\\src\\main\\java"
+        ],
+        "libraries": [
+          "C:\\Program Files\\ojdkbuild\\java-1.8.0-openjdk-1.8.0.322-1\\jre\\lib\\rt.jar"
+        ],
+        "binaries": [
+          "D:\\VPES_mini\\nari\\gradle\\build\\classes\\java\\main"
+        ]
+      },
+      "test": {
+        "sources": [
+          "D:\\VPES_mini\\nari\\gradle\\src\\test\\java"
+        ],
+        "libraries": [
+          "D:\\VPES_mini\\nari\\gradle\\build\\classes\\java\\main",
+          "C:\\Program Files\\ojdkbuild\\java-1.8.0-openjdk-1.8.0.322-1\\jre\\lib\\rt.jar"
+        ],
+        "binaries": []
+      }
+    }
+  ]
+}
