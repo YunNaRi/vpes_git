@@ -1,0 +1,24 @@
+( 7668)(    1)ME: c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide\mspdbsrv.exe
+( 7668)(    1) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+( 7668)(    1) + WORKING: D:\VPES_GIT\miro_2010\.staticdata
+( 7668) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 7668)(    1) + Ignored EXENAME: mspdbsrv
+(15188)(    2)ME: C:\Windows\system32\cmd.exe
+(15188)(    2) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(15188)(    2) + WORKING: D:\VPES_GIT\miro_2010\.staticdata
+(15188) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(15188)(    2) + Ignored EXENAME: cmd
+( 1684)(    3)ME: C:\Windows\system32\chcp.com
+( 1684)(    3) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+( 1684)(    3) + WORKING: D:\VPES_GIT\miro_2010\.staticdata
+( 1684) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 1684)(    3) + Ignored EXENAME: chcp
+(18160)(    4)ME: C:\Windows\system32\chcp.com
+(18160)(    4) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(18160)(    4) + WORKING: D:\VPES_GIT\miro_2010\.staticdata
+(18160) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(18160)(    4) + Ignored EXENAME: chcp
+( 7668)(    1)ME: c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide\mspdbsrv.exe
+( 7668)(    1) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+( 7668)(    1) + WORKING: D:\VPES_GIT\miro_2010\.staticdata
+( 7668) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr

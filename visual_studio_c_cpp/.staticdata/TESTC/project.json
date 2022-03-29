@@ -1,0 +1,35 @@
+{
+    "buildCompleteTime": 1648523535357,
+    "buildLocation": "D:\\새 폴더\\nari\\visual_studio_c_cpp",
+    "modules": [
+        {
+            "dependencies": [],
+            "linkFlags": "\"/ERRORREPORT:QUEUE\" \"/OUT:\"D:\\새 폴더\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.exe\"\" \"/INCREMENTAL\" \"/NOLOGO\" \"kernel32.lib\" \"user32.lib\" \"gdi32.lib\" \"winspool.lib\" \"comdlg32.lib\" \"advapi32.lib\" \"shell32.lib\" \"ole32.lib\" \"oleaut32.lib\" \"uuid.lib\" \"odbc32.lib\" \"odbccp32.lib\" \"/MANIFEST\" \"/MANIFESTUAC:\"level='asInvoker' uiAccess='false'\"\" \"/manifest:embed\" \"/D\" \"EBUG:FASTLINK\" \"/PDB:\"D:\\새 폴더\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.pdb\"\" \"/TLBID:1\" \"/D\" \"YNAMICBASE\" \"/NXCOMPAT\" \"/IMPLIB:\"D:\\새 폴더\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.lib\"\" \"/MACHINE:X64\" \"D:\\새 폴더\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\main.obj\"",
+            "linkType": "execute",
+            "name": "DEBUG-STATIC_C_CPP_EXAMPLE.EXE",
+            "sources": [
+                {
+                    "compiler": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe",
+                    "dependencies": [
+                        "_035d8ef27e5026070e7650ea137714a0",
+                        "_2443db19dcc585e308f60dafef1d4c4c",
+                        "_25992979c3dc319b2b22111261d8b4ba",
+                        "_2d5e699df1bed89fcccccf0dcfc49050",
+                        "_303c50a7bc924cd426baa20c7f16192c",
+                        "_70f6d71b7615fc31611118aaa55f403d",
+                        "_c18832d918808d40b4664a51a8824a51",
+                        "_cf7c28041ac710f2f4e8e03184ceb03a",
+                        "671db7da616e01bcf40029ff0c4f4114_"
+                    ],
+                    "fileHash": "f235d8e98cb86dce6312023c60df9b28",
+                    "language": "cpp",
+                    "normalizedFlags": "-D_M_IX86=600<cs_newline>-D_WIN32= <cs_newline>--old_for_init<cs_newline>--signed_chars<cs_newline>--unsigned_bit_fields<cs_newline>--cs_int_size=4<cs_newline>--cs_float_size=4<cs_newline>--cs_double_size=8<cs_newline>--cs_long_size=4<cs_newline>--cs_size_t_kind=int<cs_newline>--microsoft_version=1903<cs_newline>--cs_replace_include_system<cs_newline>--display_error_number<cs_newline>--preinclude=D:\\새 폴더\\nari\\visual_studio_c_cpp\\.staticdata\\preinclude\\recent_preinclude_cpp.h<cs_newline><cs_newline>--define_macro=_VC_NODEFAULTLIB<cs_newline>-D_MBCS<cs_newline>--define_macro=_CPPUNWIND<cs_newline>--define_macro=_MT<cs_newline>--define_macro=_DLL<cs_newline>--define_macro=_DEBUG<cs_newline>--wchar_t_keyword<cs_newline>--default_calling_convention=__cdecl<cs_newline>--c++<cs_newline>--c++<cs_newline>--define_macro=_WCHAR_T_DEFINED<cs_newline>--define_macro=_NATIVE_WCHAR_T_DEFINED<cs_newline>-D__export=<cs_newline>-D_export=<cs_newline>--microsoft<cs_newline>--sys_include=C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include<cs_newline>--sys_include=C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\include<cs_newline>--sys_include=C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt<cs_newline>--sys_include=C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um<cs_newline>--sys_include=C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\shared<cs_newline>--sys_include=C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\winrt<cs_newline>",
+                    "normalizedPath": "D:/새 폴더/NARI/VISUAL_STUDIO_C_CPP/STATIC_C_CPP_EXAMPLE/MAIN.CPP",
+                    "originalFlags": "/c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo \"D:\\새 폴더\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\" /Fd \"D:\\새 폴더\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\vc140.pdb\" /Gd /TP /errorReport:queue \"D:\\새 폴더\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\main.cpp\"",
+                    "originalPath": "D:/새 폴더/NARI/VISUAL_STUDIO_C_CPP/STATIC_C_CPP_EXAMPLE/MAIN.CPP"
+                }
+            ]
+        }
+    ],
+    "schemaVersion": "1.0"
+}

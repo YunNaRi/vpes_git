@@ -1,0 +1,96 @@
+{
+    "9": {
+        "execve": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe",
+            [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe",
+                "/c",
+                "/ZI",
+                "/nologo",
+                "/W3",
+                "/WX-",
+                "/sdl",
+                "/Od",
+                "/D",
+                "_MBCS",
+                "/Gm",
+                "/EHsc",
+                "/RTC1",
+                "/MDd",
+                "/GS",
+                "/fp:precise",
+                "/Zc:wchar_t",
+                "/Zc:forScope",
+                "/Zc:inline",
+                "/Fo",
+                "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug",
+                "/Fd",
+                "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\vc140.pdb",
+                "/Gd",
+                "/TP",
+                "/errorReport:queue",
+                "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\main.cpp"
+            ],
+            "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE"
+        ],
+        "open": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\ConcurrencySal.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\sal.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\vadefs.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\vcruntime.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt_stdio_config.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt_wstdio.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\stdio.h",
+            "C:\\Users\\nryun\\AppData\\Local\\Microsoft\\VSCommon\\14.0\\SQM\\sqmcpp.log",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\tmp9e943c76755f4c9f9c73b9e6e6e0760e.tmp",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\{33FB46C1-9CA1-4206-85D2-BC65B996B9AF}",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\{4E9ED42D-FE34-4C70-B46A-0DB05B689D33}",
+            "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\main.cpp",
+            "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\vc140.idb",
+            "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\vc140.pdb"
+        ]
+    },
+    "13": {
+        "execve": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe",
+            [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe",
+                "/ERRORREPORT:QUEUE",
+                "/OUT:\"D:\\VPES_mini\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.exe\"",
+                "/INCREMENTAL",
+                "/NOLOGO",
+                "kernel32.lib",
+                "user32.lib",
+                "gdi32.lib",
+                "winspool.lib",
+                "comdlg32.lib",
+                "advapi32.lib",
+                "shell32.lib",
+                "ole32.lib",
+                "oleaut32.lib",
+                "uuid.lib",
+                "odbc32.lib",
+                "odbccp32.lib",
+                "/MANIFEST",
+                "/MANIFESTUAC:\"level='asInvoker' uiAccess='false'\"",
+                "/manifest:embed",
+                "/D",
+                "EBUG:FASTLINK",
+                "/PDB:\"D:\\VPES_mini\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.pdb\"",
+                "/TLBID:1",
+                "/D",
+                "YNAMICBASE",
+                "/NXCOMPAT",
+                "/IMPLIB:\"D:\\VPES_mini\\nari\\visual_studio_c_cpp\\x64\\Debug\\STATIC_C_CPP_EXAMPLE.lib\"",
+                "/MACHINE:X64",
+                "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE\\x64\\Debug\\main.obj"
+            ],
+            "D:\\VPES_mini\\nari\\visual_studio_c_cpp\\STATIC_C_CPP_EXAMPLE"
+        ],
+        "open": [
+            "C:\\Users\\nryun\\AppData\\Local\\Microsoft\\VSCommon\\14.0\\SQM\\sqmcpp.log",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\tmpeb7c4a9d18f84be29376bcbc94720101.tmp"
+        ]
+    }
+}
