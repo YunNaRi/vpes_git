@@ -2,7 +2,7 @@
     "REANALYZE": false,
     "WORKING_DIR": "D:\\VPES_GIT\\cube\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0"
     ],
     "PRE_BUILD_COMMAND": "",
     "COMMAND": [
@@ -11,16 +11,30 @@
         "/t:rebuild"
     ],
     "STATIC_SERVER_ADDRESS": "211.116.222.189",
-    "PROJECT_KEY": "GITC",
-    "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2010_None_Host_CCPP.sconf",
+    "PROJECT_KEY": "QWEFF",
+    "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2015_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {
-            "include": [],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\winrt"
+            ],
             "conf": [],
             "removes": []
         },
         "CPP": {
-            "include": [],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\winrt"
+            ],
             "conf": [],
             "removes": []
         }
@@ -60,6 +74,10 @@
     "MULTI_PROCESSOR": false,
     "EXCLUSIONS": [],
     "EXTRA_OPTIONS": {
+        "ASSIGN_TO_COMMITTER": {
+            "enable": true,
+            "path_replace_map": []
+        },
         "SPECIFIED_ANALYSIS_AGENT_VERSION": ""
     }
 }
