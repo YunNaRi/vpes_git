@@ -1,6 +1,6 @@
 {
     "REANALYZE": false,
-    "WORKING_DIR": "D:\\VPES_GIT\\miro_2010\\.staticdata",
+    "WORKING_DIR": "D:\\VPES_GIT\\vpes_git\\miro_2010\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0"
     ],
@@ -10,8 +10,8 @@
         "miro.sln",
         "/t:rebuild"
     ],
-    "STATIC_SERVER_ADDRESS": "211.116.222.189",
-    "PROJECT_KEY": "GITC",
+    "STATIC_SERVER_ADDRESS": "211.116.222.197",
+    "PROJECT_KEY": "REWQ",
     "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2010_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {
