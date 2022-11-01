@@ -1,0 +1,5 @@
+﻿  test.c
+d:\vpes_mini\nari\test\project1\test.c(5): warning C4013: 'test'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\vpes_mini\nari\test\project1\test.c(24): warning C4716: 'Add2': 값을 반환해야 합니다.
+  Project1.vcxproj -> D:\VPES_mini\nari\test\Debug\test.exe
+  Project1.vcxproj -> D:\VPES_mini\nari\test\Debug\test.pdb (Partial PDB)
