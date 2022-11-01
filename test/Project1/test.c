@@ -15,7 +15,7 @@ int test() {
 	int sum = 0;
 
 	sum = u + y;
-	printf_s("\r\n");
+	printf_s("hello\r\n");
 
 	return sum;
 }
