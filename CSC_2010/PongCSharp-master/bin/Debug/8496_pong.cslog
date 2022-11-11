@@ -1,0 +1,10 @@
+[COVER] OutputOptions: FILE
+[COVER] Port: 9093
+[COVER] Connection Interval: 3000
+[COVER] Dump Directory: C:\Suresofttech\Cover-Lite\coverage
+[COVER] Dump Interval: 5000
+[COVER] Log Option: FILE
+[COVER] Log Directory: 
+[COVER] Dump coverage to file
+[COVER] DumpAll
+[COVER] DumpAll

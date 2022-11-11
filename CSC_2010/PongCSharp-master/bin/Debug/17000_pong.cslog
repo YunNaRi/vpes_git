@@ -1,0 +1,25 @@
+[COVER] OutputOptions: FILE
+[COVER] Port: 9093
+[COVER] Connection Interval: 3000
+[COVER] Dump Directory: C:\Suresofttech\Cover-Lite\coverage
+[COVER] Dump Interval: 5000
+[COVER] Log Option: FILE
+[COVER] Log Directory: 
+[COVER] Dump coverage to file
+[COVER] DumpAll
+[COVER] Dump coverage to file
+[COVER] DumpAll
+[COVER] Dump coverage to file
+[COVER] DumpAll
+[COVER] Dump coverage to file
+[COVER] DumpAll
+[COVER] DumpAll
+[COVER] System.IO.IOException: 'C:\Suresofttech\Cover-Lite\coverage\17000_CC4FF6128704475855B070E6D51406AC.cscvd' 파일은 다른 프로세스에서 사용 중이므로 프로세스에서 액세스할 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   위치: QualityScroll.Cover.data.FileOutput.GetWriter(String moduleKey)
+   위치: QualityScroll.Cover.data.RuntimeData.DumpAll()
+   위치: QualityScroll.Cover.Agent.ShutDown(Object sender, EventArgs e)
+[COVER] DumpToFile

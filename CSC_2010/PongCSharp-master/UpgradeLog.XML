@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="pong">
+</Property><Property Name="솔루션 파일" Value="C:\Users\ltj\Downloads\PongCSharp-master\pong.sln">
+</Property><Property Name="사용자 옵션 파일" Value="C:\Users\ltj\Downloads\PongCSharp-master\pong.suo">
+</Property><Property Name="Date" Value="2018년 11월 22일 목요일">
+</Property><Property Name="Time" Value="오전 8:48">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="pong.sln" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\pong.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="pong.suo" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\pong.suo(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="pong.csproj" Description="프로젝트 파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\pong.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Form1.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Form1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Form1.Designer.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Form1.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Program.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Program.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Properties\AssemblyInfo.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Properties\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Properties\Resources.Designer.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Properties\Resources.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Properties\Settings.Designer.cs" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Properties\Settings.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Properties\Settings.settings" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Properties\Settings.settings(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="bigicon.ico" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\bigicon.ico(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Form1.resx" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Form1.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="Properties\Resources.resx" Description="파일을 C:\Users\ltj\Downloads\PongCSharp-master\Backup\Properties\Resources.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="pong" Source="pong.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="pong" Source="pong.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="pong.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="pong.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="pong" Source="pong.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>
