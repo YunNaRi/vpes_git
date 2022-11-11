@@ -1,6 +1,6 @@
 {
     "REANALYZE": false,
-    "WORKING_DIR": "D:\\VPES_GIT\\VPES_git2\\test\\.staticdata",
+    "WORKING_DIR": "D:\\VPES_GIT\\vpes_git\\test\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0"
     ],
