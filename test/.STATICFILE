@@ -1,6 +1,6 @@
 {
     "REANALYZE": false,
-    "WORKING_DIR": "D:\\VPES_mini\\nari\\test\\.staticdata",
+    "WORKING_DIR": "D:\\VPES_GIT\\VPES_git2\\test\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0"
     ],
@@ -10,8 +10,8 @@
         "test.sln",
         "/t:rebuild"
     ],
-    "STATIC_SERVER_ADDRESS": "211.116.222.197",
-    "PROJECT_KEY": "VSPICE",
+    "STATIC_SERVER_ADDRESS": "211.116.223.171",
+    "PROJECT_KEY": "CRLF",
     "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2015_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {

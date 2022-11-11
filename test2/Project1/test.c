@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int main() {
 	int k = 1;
@@ -10,7 +11,6 @@ int main() {
 	return 0;
 }
 
-//test
 
 int test() {
 	int u = 1;
@@ -20,7 +20,6 @@ int test() {
 	sum = u + y;
 
 	printf_s("\r\n");
-
 
 	return sum;
 }
