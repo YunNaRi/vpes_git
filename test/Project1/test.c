@@ -6,9 +6,6 @@ int main() {
 	test();
 
 	if (k < w) {
-	//빈공간
-
-
 	
 	}
 
