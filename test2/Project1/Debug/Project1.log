@@ -1,4 +1,0 @@
-﻿  test.c
-d:\vpes_git\vpes_git2\test2\project1\test.c(7): warning C4013: 'test'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Project1.vcxproj -> D:\VPES_GIT\VPES_git2\test2\Debug\test.exe
-  Project1.vcxproj -> D:\VPES_GIT\VPES_git2\test2\Debug\test.pdb (Partial PDB)

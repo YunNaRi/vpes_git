@@ -1,8 +1,0 @@
-exec-+-11-+-10-+-D:\VPES_mini\nari\test\Project1-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe-+-"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe" /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:queue main.c  
-open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log
-open-+-11-+-10-+-D:\VPES_mini\nari\test\Project1\main.c
-open-+-11-+-10-+-D:\VPES_mini\nari\test\Project1\x64\Debug\vc140.idb
-open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\{B21114ED-2F43-4B3E-8ECD-289CD4A2BA5D}
-open-+-11-+-10-+-D:\VPES_mini\nari\test\Project1\x64\Debug\vc140.pdb
-open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\{ED05187B-45B6-4C38-8463-A86E923C57C8}
-open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\tmpda0b00c156864dca8247d79527f1156e.tmp
