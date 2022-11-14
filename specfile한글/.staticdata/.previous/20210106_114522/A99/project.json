@@ -1,0 +1,37 @@
+{
+    "buildCompleteTime": 1609901121491,
+    "buildLocation": "csdata의 경우 알 수 없음, 일관성을 위해 남겨둬야할지 고민해봐야함",
+    "modules": [
+        {
+            "dependencies": [],
+            "linkFlags": "",
+            "linkType": "execute",
+            "name": "a",
+            "sources": [
+                {
+                    "compiler": "gcc",
+                    "dependencies": [
+                        "1eb83d6d10c43ae29f43de635cb16ba5",
+                        "306227024c018cd03aca28832762ed44_",
+                        "_0b4629d9b420da503aca6bd354e72eff",
+                        "_229cfc2b07325e2898b40babd7dc8550",
+                        "_22b026c8f577928026251b69de24ec63",
+                        "_56ece48196489623e3f168381498aa15",
+                        "_6a9f51d308e9b5c17a654535b1e08d2f",
+                        "_75e08fccd97604691b5b85e5205b1555",
+                        "_95fd4038c4e68b6194681c528fe03f3b",
+                        "_f5595cdcabf12d22cdb291db6e47b9e6",
+                        "_fbcd01c97be73ad1f89e0177a79f071a"
+                    ],
+                    "fileHash": "c58929a7b8dc750dcd065437271a555f",
+                    "language": "c",
+                    "normalizedFlags": "-Di386<cs_newline>--new_for_init<cs_newline>--signed_chars<cs_newline>--unsigned_bit_fields<cs_newline>--cs_int_size=4<cs_newline>--cs_long_size=4<cs_newline>--cs_pointer_size=4<cs_newline>--cs_float_size=4<cs_newline>--cs_double_size=8<cs_newline>--cs_size_t_kind=int<cs_newline>--gnu_version=60300<cs_newline>--c++14<cs_newline>--preinclude=C:\\Users\\ysgo\\Desktop\\vpes_scm\\specfile한글\\.staticdata\\preinclude\\recent_preinclude_c.h<cs_newline><cs_newline>-IC:\\Program<cs_newline>-IC:\\Program<cs_newline>-IC:\\Program<cs_newline>-D_CODESCROLL_STATIC_<cs_newline>--c<cs_newline>--sys_include=C:\\MinGW\\include<cs_newline>--sys_include=C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include<cs_newline>",
+                    "normalizedPath": "C:/PROGRAM FILES (X86)/SURESOFTTECH/VPES/VPES/STATIC_WORKSPACE/BUILD_TEST/SPECFILE한글/SRC/CPP/STUDY_SAMPLE.C",
+                    "originalFlags": "-IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test -IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test/src -IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test/header -D_CODESCROLL_STATIC_ \"C:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test\\specfile한글\\src\\cpp\\study_sample.c\"",
+                    "originalPath": "C:/PROGRAM FILES (X86)/SURESOFTTECH/VPES/VPES/STATIC_WORKSPACE/BUILD_TEST/SPECFILE한글/SRC/CPP/STUDY_SAMPLE.C"
+                }
+            ]
+        }
+    ],
+    "schemaVersion": "1.0"
+}

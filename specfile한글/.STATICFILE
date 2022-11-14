@@ -1,0 +1,67 @@
+{
+    "REANALYZE": false,
+    "WORKING_DIR": "C:\\Users\\ysgo\\Desktop\\vpes_scm\\specfile한글\\.staticdata",
+    "COMPILER_INSTALLATION_PATH": [
+        "C:\\MinGW\\bin"
+    ],
+    "PRE_BUILD_COMMAND": "",
+    "COMMAND": [
+        "ddd"
+    ],
+    "STATIC_SERVER_ADDRESS": "211.116.223.195",
+    "PROJECT_KEY": "SPEC2",
+    "TOOLCHAIN_FILENAME": "gcc63.sconf",
+    "PARSING": {
+        "C": {
+            "include": [
+                "C:\\MinGW\\include",
+                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include"
+            ],
+            "conf": [],
+            "removes": []
+        },
+        "CPP": {
+            "include": [
+                "C:\\MinGW\\include",
+                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include"
+            ],
+            "conf": [],
+            "removes": []
+        }
+    },
+    "USER_DEFINED_EXTENSIONS": {
+        "header": [
+            ".h",
+            ".H",
+            ".hpp",
+            ".HPP",
+            ".tcc",
+            ".inl",
+            ".INL"
+        ],
+        "source": [
+            ".c",
+            ".C",
+            ".c++",
+            ".C++",
+            ".cpp",
+            ".CPP",
+            ".cxx",
+            ".CXX",
+            ".cc",
+            ".CC",
+            ".cp",
+            ".CP"
+        ],
+        "object": [
+            ".o",
+            ".O",
+            ".lo",
+            ".obj",
+            ".OBJ"
+        ]
+    },
+    "MULTI_PROCESSOR": false,
+    "EXCLUSIONS": [],
+    "EXTRA_OPTIONS": {}
+}

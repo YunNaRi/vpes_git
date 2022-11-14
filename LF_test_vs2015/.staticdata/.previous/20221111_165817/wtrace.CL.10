@@ -1,0 +1,16 @@
+exec-+-10-+-9-+-D:\VPES_GIT\vpes_git\LF_test_vs2015\LF_test_vs2015-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe-+-"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe" /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:queue LF_test.c  
+open-+-10-+-9-+-C:\Users\nryun\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log
+open-+-10-+-9-+-D:\VPES_GIT\vpes_git\LF_test_vs2015\LF_test_vs2015\LF_test.c
+open-+-10-+-9-+-D:\VPES_GIT\vpes_git\LF_test_vs2015\LF_test_vs2015\x64\Debug\vc140.idb
+open-+-10-+-9-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h
+open-+-10-+-9-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h
+open-+-10-+-9-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+open-+-10-+-9-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h
+open-+-10-+-9-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h
+open-+-10-+-9-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h
+open-+-10-+-9-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h
+open-+-10-+-9-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h
+open-+-10-+-9-+-C:\Users\nryun\AppData\Local\Temp\{D6D6F7AE-C42D-4E3D-A1F0-6055C9BB3104}
+open-+-10-+-9-+-D:\VPES_GIT\vpes_git\LF_test_vs2015\LF_test_vs2015\x64\Debug\vc140.pdb
+open-+-10-+-9-+-C:\Users\nryun\AppData\Local\Temp\{BF1E1B9A-8E2F-406E-9E04-E910663A825D}
+open-+-10-+-9-+-C:\Users\nryun\AppData\Local\Temp\tmpa9ec5c1afe934e159bfc2dc2a5f4417b.tmp

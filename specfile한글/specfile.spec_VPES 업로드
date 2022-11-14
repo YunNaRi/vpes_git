@@ -1,0 +1,122 @@
+[
+  {
+    NAME: module1
+    COMMON_COMPILE_FLAG: -I${THIS} -I${THIS}/src -I${THIS}/header -D_CODESCROLL_STATIC_
+    SOURCES:
+    [
+      {
+        SOURCE_FILE_HANDLER: wildcards
+        SEARCH_DIR: ${THIS}\src\module1
+        COMPILE_FLAG: inherit
+        RECURSIVE: false
+        INCLUDES:
+        [
+          *.c
+          *.cc
+        ]
+        EXCLUDES:
+        [
+          SRC1.C
+        ]
+        BUILD_DIR: ${THIS}
+      }
+      {
+        SOURCE_FILE_HANDLER: file
+        SEARCH_DIR: ${THIS}\src\cpp
+        COMPILE_FLAG: -std=c++14
+        FILENAME: test.cpp111111111111
+        BUILD_DIR: ${THIS}\src\cpp
+      }
+    ]
+  }
+  {
+    NAME: module2
+    COMMON_COMPILE_FLAG: -I${THIS} -I${THIS}/header -D_CODESCROLL_STATIC_
+    SOURCES:
+    [
+      {
+        SOURCE_FILE_HANDLER: wildcards
+        SEARCH_DIR: ${THIS}\src\module2
+        COMPILE_FLAG: inherit
+        RECURSIVE: false
+        INCLUDES:
+        [
+          *.c
+          *.cc
+        ]
+        EXCLUDES:
+        [
+          *qml*
+        ]
+        BUILD_DIR: ${THIS}
+      }
+      {
+        SOURCE_FILE_HANDLER: file
+        SEARCH_DIR: ${THIS}\src\cpp
+        COMPILE_FLAG: -std=c++14
+        FILENAME: test.cpp
+        BUILD_DIR: ${THIS}\src\cpp
+      }
+    ]
+  }
+  {
+    NAME: module3
+    COMMON_COMPILE_FLAG: -I${THIS} -I${THIS}/header -D_CODESCROLL_STATIC_
+    SOURCES:
+    [
+      {
+        SOURCE_FILE_HANDLER: wildcards
+        SEARCH_DIR: ${THIS}\src\module3
+        COMPILE_FLAG: inherit
+        RECURSIVE: false
+        INCLUDES:
+        [
+          *.c
+          *.cc
+        ]
+        EXCLUDES:
+        [
+          *qml*
+        ]
+        BUILD_DIR: ${THIS}
+      }
+      {
+        SOURCE_FILE_HANDLER: file
+        SEARCH_DIR: ${THIS}\src\cpp
+        COMPILE_FLAG: -std=c++14
+        FILENAME: test.cpp
+        BUILD_DIR: ${THIS}\src\cpp
+      }
+    ]
+  }
+  {
+    NAME: module4
+    COMMON_COMPILE_FLAG: -I${THIS} -I${THIS}/header -D_CODESCROLL_STATIC_
+    SOURCES:
+    [
+      {
+        SOURCE_FILE_HANDLER: wildcards
+        SEARCH_DIR: ${THIS}\src\module4
+        COMPILE_FLAG: inherit
+        RECURSIVE: false
+        INCLUDES:
+        [
+          *.c
+          *.cc
+        ]
+        EXCLUDES:
+        [
+          *qml*
+        ]
+        BUILD_DIR: ${THIS}
+      }
+      {
+        SOURCE_FILE_HANDLER: file
+        SEARCH_DIR: ${THIS}\src\cpp
+        COMPILE_FLAG: -std=c++14
+        FILENAME: test.cpp
+        BUILD_DIR: ${THIS}\src\cpp
+      }
+    ]
+  }
+]

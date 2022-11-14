@@ -1,0 +1,13 @@
+{
+    "1": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test -IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test/src -IC:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test/header -D_CODESCROLL_STATIC_",
+                "C:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test\\specfile한글\\src\\cpp\\study_sample.c"
+            ],
+            "C:\\Program Files (x86)\\Suresofttech\\VPES\\vpes\\STATIC_WORKSPACE\\build_test"
+        ]
+    }
+}
