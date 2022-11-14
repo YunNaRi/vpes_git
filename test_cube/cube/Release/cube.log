@@ -1,0 +1,17 @@
+﻿  Stdafx.cpp
+  Cube.cpp
+  Cubedoc.cpp
+  Cubeview.cpp
+  Mainfrm.cpp
+  코드를 생성하고 있습니다...
+  Microsoft (R) Incremental Linker Version 14.00.24215.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:.\Release\Cube.exe" /INCREMENTAL:NO opengl32.lib glu32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed "/manifestinput:C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG "/PDB:.\Release\Cube.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:.\Release\Cube.lib" /MACHINE:X86 /SAFESEH /SAFESEH .\Release\Cube.res 
+  .\Release\Cube.obj 
+  .\Release\Cubedoc.obj 
+  .\Release\Cubeview.obj 
+  .\Release\Mainfrm.obj 
+  .\Release\Stdafx.obj 
+  cube.vcxproj -> D:\VPES_mini\nari\cube\.\Release\Cube.exe
+  cube.vcxproj -> .\Release\Cube.pdb (Full PDB)
