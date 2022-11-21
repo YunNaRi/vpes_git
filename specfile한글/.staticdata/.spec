@@ -1,0 +1,1 @@
+D:\VPES_GIT\vpes_git\specfile한글\.spec

@@ -1,6 +1,6 @@
 {
     "REANALYZE": false,
-    "WORKING_DIR": "C:\\Users\\ysgo\\Desktop\\vpes_scm\\specfile한글\\.staticdata",
+    "WORKING_DIR": "D:\\VPES_GIT\\vpes_git\\specfile한글\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
         "C:\\MinGW\\bin"
     ],
@@ -8,22 +8,28 @@
     "COMMAND": [
         "ddd"
     ],
-    "STATIC_SERVER_ADDRESS": "211.116.223.195",
-    "PROJECT_KEY": "SPEC2",
-    "TOOLCHAIN_FILENAME": "gcc63.sconf",
+    "STATIC_SERVER_ADDRESS": "211.116.223.171",
+    "PROJECT_KEY": "SPECFILE",
+    "TOOLCHAIN_FILENAME": "FreeSoftware_gcc_6.3_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {
             "include": [
-                "C:\\MinGW\\include",
-                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include"
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/../../../../include"
             ],
             "conf": [],
             "removes": []
         },
         "CPP": {
             "include": [
-                "C:\\MinGW\\include",
-                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include"
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/include",
+                "C:\\mingw\\bin\\../lib/gcc/mingw32/9.2.0/../../../../include"
             ],
             "conf": [],
             "removes": []
@@ -63,5 +69,7 @@
     },
     "MULTI_PROCESSOR": false,
     "EXCLUSIONS": [],
-    "EXTRA_OPTIONS": {}
+    "EXTRA_OPTIONS": {
+        "SPECIFIED_ANALYSIS_AGENT_VERSION": ""
+    }
 }

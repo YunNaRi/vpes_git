@@ -1,0 +1,78 @@
+{
+    "versions": {
+        "scheme": "1.0",
+        "csbuild": "[v22051314-STATIC_4.4.2-689-g07ea38983][engine-3dd4811]",
+        "preprocessor": "1.0"
+    },
+    "serverURL": "192.168.0.130",
+    "projectKey": "POPPAD",
+    "toolchains": [
+        {
+            "language": "c",
+            "compiler": "Microsoft VisualStudio 2013",
+            "linker": "not-used",
+            "archive": "not-used",
+            "conf": [
+                "cs_define_macro_value=_M_AMD64;100",
+                "cs_define_macro_value=_M_X64;100",
+                "cs_define_macro_value=_WIN64;",
+                "cs_for_init_scope=outer",
+                "cs_using_std=disable",
+                "cs_plain_char=signed",
+                "cs_plain_bit_field=unsigned",
+                "cs_set_type_size=int;4",
+                "cs_set_type_size=float;4",
+                "cs_set_type_size=double;8",
+                "cs_set_type_size=long;4",
+                "cs_set_type_size=pointer;8",
+                "cs_size_t_kind=__int64",
+                "microsoft_version=1805",
+                "cs_replace_include_system",
+                "display_error_number"
+            ],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.14393.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\winrt"
+            ]
+        },
+        {
+            "language": "cpp",
+            "compiler": "Microsoft VisualStudio 2013",
+            "linker": "not-used",
+            "archive": "not-used",
+            "conf": [
+                "cs_define_macro_value=_M_AMD64;100",
+                "cs_define_macro_value=_M_X64;100",
+                "cs_define_macro_value=_WIN64;",
+                "cs_for_init_scope=outer",
+                "cs_using_std=disable",
+                "cs_plain_char=signed",
+                "cs_plain_bit_field=unsigned",
+                "cs_set_type_size=int;4",
+                "cs_set_type_size=float;4",
+                "cs_set_type_size=double;8",
+                "cs_set_type_size=long;4",
+                "cs_set_type_size=pointer;8",
+                "cs_size_t_kind=__int64",
+                "microsoft_version=1805",
+                "cs_replace_include_system",
+                "display_error_number"
+            ],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.14393.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\winrt"
+            ]
+        }
+    ],
+    "exclusions": [
+        "**/.staticdata/preinclude/*"
+    ]
+}

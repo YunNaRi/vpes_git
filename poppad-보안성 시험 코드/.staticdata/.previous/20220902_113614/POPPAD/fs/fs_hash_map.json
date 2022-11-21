@@ -1,0 +1,908 @@
+{
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DPAPI.H": [
+        "_9d9802fba42d627779f3de6862cc1579",
+        true,
+        false,
+        "c21247be"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/COMMDLG.H": [
+        "_6c69a87bdd9ae2e3edb78fa390ddfd96",
+        true,
+        false,
+        "db5535e4"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/KTMTYPES.H": [
+        "_3120827d83c87345979a609b4a3315e0",
+        true,
+        false,
+        "cf179948"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/FIBERSAPI.H": [
+        "_48bd3bee78c08b2eb29240d7f685bedd",
+        true,
+        false,
+        "e6322f60"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/NCRYPT.H": [
+        "_98c94b7fc3785c53c604cd0b18265ff4",
+        true,
+        false,
+        "8b380e7f"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PROPIDL.H": [
+        "_03dce76e8df304751171cad9d74b0bf7",
+        true,
+        false,
+        "2f667ac4"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINBASE.H": [
+        "_3bf8cf2dcb67e7e5be302d0734947b11",
+        true,
+        false,
+        "ca292ee8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OBJIDLBASE.H": [
+        "_3dbed4ee94e22111d52f747d6b2c989c",
+        true,
+        false,
+        "1525d380"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/NAMEDPIPEAPI.H": [
+        "_1e3cbe8be45cef2062cc3297568e745e",
+        true,
+        false,
+        "db21d893"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/SPECSTRINGS_UNDEF.H": [
+        "_a70ad3935da4d80559b428fe17250cc3",
+        true,
+        false,
+        "53d0c27"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PROFILEAPI.H": [
+        "_ed810124ba66d2372a9669e131b689a2",
+        true,
+        false,
+        "9452dfca"
+    ],
+    "C:/TEMP/POPPAD/POPPAD.C": [
+        "53744ae57d8fdecc3a55b1d931859df2",
+        false,
+        false,
+        "e62cd4d7"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MMSYSCOM.H": [
+        "_3167c8faff87be09c9c37ded9c278ff6",
+        true,
+        false,
+        "8f54d69d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OLE2.H": [
+        "_d3986dd907c1e49196cad82ead691a5c",
+        true,
+        false,
+        "a1b383aa"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OLEAUTO.H": [
+        "_72ad4aaf9cae8a9ec92282925977e43b",
+        true,
+        false,
+        "43ded5c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OBJIDL.H": [
+        "_ba8f021cb803e76b15bd05b373e42dc0",
+        true,
+        false,
+        "f3810ebe"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/MINWINDEF.H": [
+        "_eee06260f673cbe5ab4823159433dde0",
+        true,
+        false,
+        "8e09aa80"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/PSHPACK1.H": [
+        "_8a8872b1134ab7ed376adc1e56249aab",
+        true,
+        false,
+        "9fc89c1b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OAIDL.H": [
+        "_b54b0cf1a388db9f9ea3ea12b1c1e34b",
+        true,
+        false,
+        "576580c3"
+    ],
+    "C:/TEMP/POPPAD/POPFIND.C": [
+        "378b5caafa75648d6d4d264001efe371",
+        false,
+        false,
+        "5418f3b7"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCDCE.H": [
+        "_1834f0210608a15a3432ed448e22b25c",
+        true,
+        false,
+        "f5c6bd13"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/CGUID.H": [
+        "_80192576e3986bc07786a63c49241b11",
+        true,
+        false,
+        "3108f29c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WTYPES.H": [
+        "_6871359480d2c18091563422d816a403",
+        true,
+        false,
+        "462cad1d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OLEIDL.H": [
+        "_e48170fe3db393e4e886fed36b618fe2",
+        true,
+        false,
+        "b1e769c5"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WINDEF.H": [
+        "_812462173442530c356fabc5640a9d87",
+        true,
+        false,
+        "be7cdee5"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINCRYPT.H": [
+        "_17c80505706e2f75281a022b42700511",
+        true,
+        false,
+        "e5f9be4d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCNDR.H": [
+        "_51fff0dda7fefefb0b17c1dc4777a3a6",
+        true,
+        false,
+        "58183a22"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/UNKNWNBASE.H": [
+        "_6aa1d5dfcda93a428823bd63b5dd4613",
+        true,
+        false,
+        "64acdaa8"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/SAL.H": [
+        "_e2bbc2e1193f1a07ff9b393547acdb4a",
+        true,
+        false,
+        "57d371be"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PLAYSOUNDAPI.H": [
+        "_360895ad443d63b959aa5c229c73527c",
+        true,
+        false,
+        "b54453e7"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SECURITYAPPCONTAINER.H": [
+        "_8c0707e93fe6f4249a8c74b69c141eff",
+        true,
+        false,
+        "ff9c990a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINSCARD.H": [
+        "_4286d4778ea3065b2890349a0d5d7eee",
+        true,
+        false,
+        "190aa0d7"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/RPCNSI.H": [
+        "_5b1c3d7527f37d2bd9206ab7c0b6ce1d",
+        true,
+        false,
+        "cb096fb0"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/TVOUT.H": [
+        "_a0f4f8be0ad81c529799b1b2e5110583",
+        true,
+        false,
+        "673afaff"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPC.H": [
+        "_1a9528f5dc4ff8ac69545efa078ac0f7",
+        true,
+        false,
+        "33bbf07c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DDEML.H": [
+        "_a8e5b57b85deec9da694dcaf2459827b",
+        true,
+        false,
+        "222e2a0e"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINCON.H": [
+        "_9782458c8c66c3d5e1fddcc52d62c1c5",
+        true,
+        false,
+        "2e2632c8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MMISCAPI2.H": [
+        "_a13a3a9fde1abb3b80e6243b199c42ec",
+        true,
+        false,
+        "23f16278"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/RPCNSIP.H": [
+        "_fee98615ed89abc70988fbe3b532b058",
+        true,
+        false,
+        "fa20d56e"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MCIAPI.H": [
+        "_7780519af50c3381b0874e1a00fa7273",
+        true,
+        false,
+        "876e21f8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/JOYSTICKAPI.H": [
+        "_a19c46ac22bd2442ef008c058a1e714a",
+        true,
+        false,
+        "54c903b8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PRSHT.H": [
+        "_ba694b5018cbe6b401835d5bcf683247",
+        true,
+        false,
+        "581719b8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/FILEAPI.H": [
+        "_2e307ab2fa9647e2e48389b359076c80",
+        true,
+        false,
+        "1c69696b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/DRIVERSPECS.H": [
+        "_67673f767ebe35a321c6f0b58d436d03",
+        true,
+        false,
+        "81d311c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINREG.H": [
+        "_70b50b1436c31bb01a522f3fb80fff6d",
+        true,
+        false,
+        "faab2bdb"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINNLS.H": [
+        "_0c96b0bb5ab932ba577e4dd0558c895d",
+        true,
+        false,
+        "b07016de"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/IME_CMODES.H": [
+        "_9495760d76b59b42fae056f35feee11a",
+        true,
+        false,
+        "de1cb6f9"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/HANDLEAPI.H": [
+        "_a46661e70fbf59738d585315504a60f2",
+        true,
+        false,
+        "6fcb144a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/REASON.H": [
+        "_dc3ac35d9dc4746896293597e9f8a1b0",
+        true,
+        false,
+        "461ae0b5"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/STRINGAPISET.H": [
+        "_cd0bbf218f7e99f7b37c3f8437acebe8",
+        true,
+        false,
+        "38bc5c15"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/THREADPOOLAPISET.H": [
+        "_1ee4296785b4512524d7abd96f8cda3a",
+        true,
+        false,
+        "61f89e44"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SERVPROV.H": [
+        "_064e0e12833e8e2ded2c82461da64a97",
+        true,
+        false,
+        "f41edff9"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MMISCAPI.H": [
+        "_11afc1ddc234a8c4aa94d912385bddf6",
+        true,
+        false,
+        "bf2e19b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MEMORYAPI.H": [
+        "_480bd346d5f5dc1250f6d5e1b7059036",
+        true,
+        false,
+        "193de7a1"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINNT.H": [
+        "_1522c43b0291297a82540fc08171e034",
+        true,
+        false,
+        "14b41264"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINDOWS.H": [
+        "_f689eeed53ea17b17cc9f35637e351e5",
+        true,
+        false,
+        "512c61d1"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/SPECSTRINGS.H": [
+        "_425ab81e40d5772dbfc411a99b68553c",
+        true,
+        false,
+        "fcad052"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINIOCTL.H": [
+        "_04ed91a5011858bd2273812bca5a17cb",
+        true,
+        false,
+        "94a6af83"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DEBUGAPI.H": [
+        "_f1ab426a3fb07cc26924053455b912a7",
+        true,
+        false,
+        "8ca2a8d4"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/INADDR.H": [
+        "_97ad2438ee6e3ee6dd3a12e78f9542bd",
+        true,
+        false,
+        "4f6dc447"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PROCESSENV.H": [
+        "_d9f9f1e6e1cfa71280eebb8c7c353201",
+        true,
+        false,
+        "e8bc2f73"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/BASETSD.H": [
+        "_ee3f77a83aa5d432c640944d849186fe",
+        true,
+        false,
+        "3131bf07"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/REALTIMEAPISET.H": [
+        "_5d07c19a712b0770eaad6333ba3844ad",
+        true,
+        false,
+        "c33a3684"
+    ],
+    "C:/TEMP/POPPAD/.STATICDATA/PREINCLUDE/RECENT_PREINCLUDE_C.H": [
+        "306227024c018cd03aca28832762ed44_",
+        false,
+        true,
+        "dae7ffb3"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/SDV_DRIVERSPECS.H": [
+        "_3ccf888d9a391f8d541478a07b52356c",
+        true,
+        false,
+        "73172a3b"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/STDLIB.H": [
+        "_285560e757f336683936884a88718aec",
+        true,
+        false,
+        "e911c888"
+    ],
+    "C:/TEMP/POPPAD/.STATICDATA/PREINCLUDE/RECENT_PREINCLUDE_CPP.H": [
+        "671db7da616e01bcf40029ff0c4f4114_",
+        false,
+        true,
+        "cb201cdc"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/SPECSTRINGS_STRICT.H": [
+        "_40536c9a0587b27421d57ad713131932",
+        true,
+        false,
+        "36bbaee8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DATETIMEAPI.H": [
+        "_0f9d48399a153be068a94759974eac45",
+        true,
+        false,
+        "a14b0647"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/PSHPACK2.H": [
+        "_ae56b318d2a7226c7940f49c5e0b7c9f",
+        true,
+        false,
+        "f30c06df"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINPERF.H": [
+        "_0742fa1657960a121c6b5023f8d5501c",
+        true,
+        false,
+        "2dd1e71f"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/STDARG.H": [
+        "_888a55802fe22eae51abbb0fcdf07f2e",
+        true,
+        false,
+        "4af80be6"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/CONSOLEAPI.H": [
+        "_a27f6c641108690fd537d9146d94c49d",
+        true,
+        false,
+        "272763b4"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/APISET.H": [
+        "_91ebaebdeb0ba490c96b54daac6e1952",
+        true,
+        false,
+        "f069807b"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/WCHAR.H": [
+        "_45897c218bc2d49161c2e40102cd5a69",
+        true,
+        false,
+        "9f84fd48"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/SWPRINTF.INL": [
+        "_ffa563d703f4550bff928045aac77b3a",
+        true,
+        false,
+        "ce105796"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PROCESSTOPOLOGYAPI.H": [
+        "_ecb51e2147fc84bb7a5d821cda736d99",
+        true,
+        false,
+        "b6c30ad3"
+    ],
+    "C:/TEMP/POPPAD/RESOURCE.H": [
+        "c72bfe2e0dd6450e864ae7771ed8140e",
+        false,
+        false,
+        "1846e134"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCNTERR.H": [
+        "_f5bfc4e0927d0c1d940bfa27199f9239",
+        true,
+        false,
+        "48431eeb"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/HEAPAPI.H": [
+        "_0dbf0de7eab8798ca650c22d03740cfc",
+        true,
+        false,
+        "b624fe2"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/VADEFS.H": [
+        "_915f3bc56e10589b0d5dba9a3e12d945",
+        true,
+        false,
+        "15639ac3"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/VERRSRC.H": [
+        "_f06dd77ebd8cc582e763c7d87210e6f5",
+        true,
+        false,
+        "b202c0e2"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINGDI.H": [
+        "_8c9b6d82dd392d7999b041cc69d0a0d1",
+        true,
+        false,
+        "ad2b7e6d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SYNCHAPI.H": [
+        "_cfa48fc336af0f81186fcd7f752862c3",
+        true,
+        false,
+        "e9bd9c6a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/IMM.H": [
+        "_7dfa6f1ecb04636e2ecb5b59573c7b89",
+        true,
+        false,
+        "c7b99b1a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/JOBAPI.H": [
+        "_060005521b9e70ca7d345cd9413f0fb3",
+        true,
+        false,
+        "4482024a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WNNC.H": [
+        "_d52b1824b1e36802362d6cb369c3324e",
+        true,
+        false,
+        "67623988"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/NAMESPACEAPI.H": [
+        "_868272eb0c477b45c3e46fe764c95a3f",
+        true,
+        false,
+        "67fdc3c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WTYPESBASE.H": [
+        "_d87f503d7a626fce1f4c608cee92fd0f",
+        true,
+        false,
+        "331790f7"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINSOCK.H": [
+        "_4c9a38861b425ac47623ba6187fb124e",
+        true,
+        false,
+        "7be3b645"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/CONCURRENCYSAL.H": [
+        "_ac4bcfe46b6310745a26cdf123f10875",
+        true,
+        false,
+        "a2582b4b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DLGS.H": [
+        "_729c08f6d0558d94e76b1be01fcfdb5c",
+        true,
+        false,
+        "7419a916"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/BEMAPISET.H": [
+        "_8eed94550963d3fe14cd88de0de84dbf",
+        true,
+        false,
+        "b5e4a607"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MSXML.H": [
+        "_f8ea13c75ce492041aca3278b0b2bd8d",
+        true,
+        false,
+        "96058430"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SHELLAPI.H": [
+        "_ff161e45c7eacaa454359a817fb05cb6",
+        true,
+        false,
+        "6cfc052a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCDCEP.H": [
+        "_591e170b424398e2d6988d460536c578",
+        true,
+        false,
+        "8de7b236"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINSPOOL.H": [
+        "_ca6fe5a04da6cbe5303632819a834197",
+        true,
+        false,
+        "922fc6c8"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/WTIME.INL": [
+        "_9fa2c7e479212438a8616e4f46fde9cf",
+        true,
+        false,
+        "896fd9c3"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MCX.H": [
+        "_8113866feef790e68e184ae34cd399ab",
+        true,
+        false,
+        "81f55959"
+    ],
+    "C:/TEMP/POPPAD/POPFILE.C": [
+        "ff5b98c4556f6c278f00820d18dddd8d",
+        false,
+        false,
+        "a2bcaebe"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/TIMEZONEAPI.H": [
+        "_4d9f35ddc9df07d39a8fa85c28512cc6",
+        true,
+        false,
+        "7d18faec"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/ERRHANDLINGAPI.H": [
+        "_dc2ffc2b6cc967c47032fe7728cf3387",
+        true,
+        false,
+        "a66b11e5"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WINSMCRD.H": [
+        "_e1f5aeb1184fb36594d65d077dd66814",
+        true,
+        false,
+        "37674ad"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/SDKDDKVER.H": [
+        "_c7b4414a3c6093cfe27e7a9a4e88f7ec",
+        true,
+        false,
+        "8e735f3c"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/COMBASEAPI.H": [
+        "_11af4962af3db979c6d1492cd014ef2a",
+        true,
+        false,
+        "92c06c95"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCSAL.H": [
+        "_8e0c424ef4ee155bdedda64f523ad214",
+        true,
+        false,
+        "832d8ad1"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/INTERLOCKEDAPI.H": [
+        "_c9097ae24007bc0c3a396362d406650e",
+        true,
+        false,
+        "17c86c1f"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/CDERR.H": [
+        "_c324927ade86321c4de44ced76d88cfe",
+        true,
+        false,
+        "ba365ee2"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WOW64APISET.H": [
+        "_4fbf65659096e76b04a45f2d9260ab23",
+        true,
+        false,
+        "16f34c2"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/LZEXPAND.H": [
+        "_d8fc34467ea7c99bb955b51211ade01d",
+        true,
+        false,
+        "ac69fd0b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/GUIDDEF.H": [
+        "_ca7d066706a198ea5999b084aab0ce58",
+        true,
+        false,
+        "4855d4cb"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/STRING.H": [
+        "_0a63abd4144f9fc1af9753a2a0e446d9",
+        true,
+        false,
+        "df99883a"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SYSINFOAPI.H": [
+        "_eca60ec54c06035026114a78ac8079d5",
+        true,
+        false,
+        "cd3f36ca"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/PROCESSTHREADSAPI.H": [
+        "_3f9cfa3f61c131d2bdf42ea99b180a7d",
+        true,
+        false,
+        "639ead7e"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/POPPACK.H": [
+        "_e7bf5ffe256f4018589918df06219392",
+        true,
+        false,
+        "73c39697"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/THREADPOOLLEGACYAPISET.H": [
+        "_49e76368534f52606577603657e21e81",
+        true,
+        false,
+        "33186ea6"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MINWINBASE.H": [
+        "_bd231c859dbdede03040f8d9054c238c",
+        true,
+        false,
+        "3b98dc2d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WINERROR.H": [
+        "_c32b1dbed3b1f0f89567d89c2aad4391",
+        true,
+        false,
+        "1cba2647"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/NB30.H": [
+        "_71a803d12aa55ab6a27837c89433b49c",
+        true,
+        false,
+        "e091ecf9"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/RPCASYNC.H": [
+        "_8728ff9c5dde40a082f8c7f084cd435c",
+        true,
+        false,
+        "ae3bb472"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/WINAPIFAMILY.H": [
+        "_8118fa8f46b8e3c87648214c0e50771d",
+        true,
+        false,
+        "5ddfa189"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINEFS.H": [
+        "_c57011b54f383b5fd4c000b8cb4baad3",
+        true,
+        false,
+        "77727966"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/UTILAPISET.H": [
+        "_aac2a590d28afdb315f51ad39c6643f5",
+        true,
+        false,
+        "ecae54c1"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MMSYSTEM.H": [
+        "_ea0dbb968bca949a453047487666d955",
+        true,
+        false,
+        "d7316008"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/PSHPACK4.H": [
+        "_db318729bfb9c44ddcc205c3498f1a1c",
+        true,
+        false,
+        "2a853357"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/CRTDEFS.H": [
+        "_095134dfcab636b8b7121b6b00bfbd51",
+        true,
+        false,
+        "c93af11d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/OBJBASE.H": [
+        "_2686c065189d4bb8892c13801a5fba55",
+        true,
+        false,
+        "e4bb2b58"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/UNKNWN.H": [
+        "_ca6a6de01dac85415d53acfb64fda819",
+        true,
+        false,
+        "a05aec41"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/PSHPACK8.H": [
+        "_5266a1ef2e2e5710f8407cc3143bb61a",
+        true,
+        false,
+        "42e65e06"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/MMEAPI.H": [
+        "_c15a169fd8d5f3332086f601d04f3f52",
+        true,
+        false,
+        "6dc47366"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/APISETCCONV.H": [
+        "_4d27349fe03edd4b5d4ab3043aafd96a",
+        true,
+        false,
+        "b9a67c2"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SECURITYBASEAPI.H": [
+        "_70da2750ea25559c5bf91e50a6ce7f46",
+        true,
+        false,
+        "5a20bbb8"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/URLMON.H": [
+        "_158c331afab640ad86ecf6d501118d7f",
+        true,
+        false,
+        "24a0c6aa"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINSVC.H": [
+        "_ba8b65887d1a8f08dddc9eb05b84a3c7",
+        true,
+        false,
+        "d47e1e22"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINUSER.H": [
+        "_d5d0472b167bfbc618a8c07a3c1e3dbf",
+        true,
+        false,
+        "2d7cd64c"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/EXCPT.H": [
+        "_caa98deb70db84344a38c237a24a01ed",
+        true,
+        false,
+        "321122e9"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/TIMEAPI.H": [
+        "_930a7b7691a3f4244de09bcc5d605de1",
+        true,
+        false,
+        "ef925008"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/TCHAR.H": [
+        "_94799e50e009683a120f7b9b4e6dfa6b",
+        true,
+        false,
+        "d2136e1b"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/DDE.H": [
+        "_712277d64b87681159f894f5c279b170",
+        true,
+        false,
+        "41a0e5ed"
+    ],
+    "C:/TEMP/POPPAD/POPFONT.C": [
+        "00ee6d60a3e5905dd45dbd50664cbda9",
+        false,
+        false,
+        "a03d52f1"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/BCRYPT.H": [
+        "_d5bfacea4923f1f659518f0efc3b9838",
+        true,
+        false,
+        "b75de0cd"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/LIMITS.H": [
+        "_14ff7aa034b42115009f18a9315dcb6e",
+        true,
+        false,
+        "90a68160"
+    ],
+    "C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/VC/INCLUDE/CTYPE.H": [
+        "_9d3a6558eace104a33cda7b29cc71503",
+        true,
+        false,
+        "68e6ff7d"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/SYSTEMTOPOLOGYAPI.H": [
+        "_85ff69a93c84038c8d0e28a0fc8fcb1e",
+        true,
+        false,
+        "51660a62"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/STRALIGN.H": [
+        "_dcc558defd73c17745f94cc5a98632d9",
+        true,
+        false,
+        "b405cc10"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/SHARED/KERNELSPECS.H": [
+        "_5866939272e5a5203678497ba0dcf54e",
+        true,
+        false,
+        "430dbc7f"
+    ],
+    "C:/TEMP/POPPAD/POPPRNT0.C": [
+        "f978d149bb66d439eb62fdca968f78e0",
+        false,
+        false,
+        "decb2a82"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINNETWK.H": [
+        "_d46862063323cc7adf4bfad84876994f",
+        true,
+        false,
+        "37e19ba6"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/WINVER.H": [
+        "_f61ce548786a20959eabf37da2184bf7",
+        true,
+        false,
+        "5a9e3899"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/LIBLOADERAPI.H": [
+        "_d8ef8be53068beaec40e9c90e7456778",
+        true,
+        false,
+        "216cff49"
+    ],
+    "C:/PROGRAM FILES (X86)/WINDOWS KITS/8.1/INCLUDE/UM/IOAPISET.H": [
+        "_d301d39f5e08854913d2c9d42ba135b4",
+        true,
+        false,
+        "dfa8a30"
+    ]
+}

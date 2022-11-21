@@ -1,0 +1,9 @@
+{
+    "capture_setting": {
+        "build_hooking": true,
+        "preprocessor": "original",
+        "spec_file_path": ""
+    },
+    "last_validation_time": "0",
+    "last_capture_time": "0"
+}

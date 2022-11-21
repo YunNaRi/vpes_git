@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ci.CodeInspectorResult>
+	<summary>
+		<prjName></prjName>
+		<toolName>CodeScroll Code Inspector</toolName>
+		<toolVersion>3.6</toolVersion>
+		<numberOfCodeViolation>16</numberOfCodeViolation>
+	</summary>
+	<source>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<crc32>e62cd4d7</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<source>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<crc32>5418f3b7</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<source>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<crc32>a2bcaebe</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<source>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<crc32>a03d52f1</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<source>
+		<fileName>C:\Temp\poppad\PopPrnt0.c</fileName>
+		<crc32>decb2a82</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<source>
+		<fileName>C:\Temp\poppad\RESOURCE.H</fileName>
+		<crc32>1846e134</crc32>
+		<isExcluded>false</isExcluded>
+	</source>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_16</rule>
+		<ruleTitle><![CDATA[Check if the expression used for checking variable scope is correct in conditional expression.]]></ruleTitle>
+		<ruleDesc><![CDATA[When checking the variable scope in conditional expression, if the correct expression is not used, it may lead to unintended behaviour. It should be checked that the correct comparison operator and relational operator are used for variables in conditional expression.</br>
+It is not desirable to use comparison operators, "==" or "!=" to check the variable scope.
+]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_14</rule>
+		<ruleTitle><![CDATA[Check if confusable characters are used between identifiers having similar names.]]></ruleTitle>
+		<ruleDesc><![CDATA[When declaring identifiers having similar names, the unwanted identifier may be used due to developer's confusion. Therefore, it is desirable to minimize the declaration of identifiers having similar names.]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_12</rule>
+		<ruleTitle><![CDATA[Check if possible exceptions within a constructor are handled.]]></ruleTitle>
+		<ruleDesc><![CDATA[If an exception is occurred within a constructor and it is not handled as an exception within the constructor, it is needed to handled as an exception in place where the constructor is called. Since a constructor can be called implicitly in several contexts, it is desirable to handle the exception within the constructor as possible. ]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_13</rule>
+		<ruleTitle><![CDATA[Identify using comparison function for case sensitive string]]></ruleTitle>
+		<ruleDesc><![CDATA[When using comparison function for string, care should be used for upper/lower cases of string. If they are used provided that the upper/lower cases of string used in comparison are always the same, it may lead to the comparison result different from the developer's intention.]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_10</rule>
+		<ruleTitle><![CDATA[Check if a local variable is used right after initialization.]]></ruleTitle>
+		<ruleDesc><![CDATA[If a static variable is defined within a function, it can be used to save the status of system. In this case, it operates differently based on values saved in the variable every time the function is called.</br>
+However, if a static keyword is omitted due to developer's mistake, in other words, the value of this variable is used for the conditional statement right after defining the local variables, it operates just the same behavior every calls.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_11</rule>
+		<ruleTitle><![CDATA[Check omitted or duplicated index when assigning successive array index.]]></ruleTitle>
+		<ruleDesc><![CDATA[When assigning values for each element in array, generally the assignment statements are coded sequentially. If in these sequential assignment statements, the assigned array elements(index) <strong>is not successive or there are duplicated</strong> elements(index), it must be due to developer's mistake.]]></ruleDesc>
+		<ruleSeverity>기타</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_14</rule>
+		<ruleTitle><![CDATA[Check if the result of ternary operator used for pointer operation is a null]]></ruleTitle>
+		<ruleDesc><![CDATA[Since the result of polynomial operator expression is the second and the third operands, both operand expressions can be the results depending on the result of the first operand. Therefore, if either operand can be a null, a null pointer referencing is occurred by the pointer operation for this expression result.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_12</rule>
+		<ruleTitle><![CDATA[Check if a target variable is a null before calling memcpy]]></ruleTitle>
+		<ruleDesc><![CDATA[It should be checked if the first factor is a null before calling memcpy. If the first factor of memcpy is a null, error can be occurred since it is the address for copying data.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_13</rule>
+		<ruleTitle><![CDATA[Check if, when calling memcpy, the size factor is smaller than the size of target variable.]]></ruleTitle>
+		<ruleDesc><![CDATA[When calling memcpy, it should be checked if the size factor is smaller than the type size of target variable. If <strong>the size factor is larger than the type size of variable</strong> memory error can be occurred.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_10</rule>
+		<ruleTitle><![CDATA[Check if there is defense code for memory assignment failure.]]></ruleTitle>
+		<ruleDesc><![CDATA[If a dynamic memory is assigned by using malloc function, operator new or operator new[], it can be failed to assign the memory due to low memory. CIn C environment, if failed to assign a memory, memory assignment failure can be recognized since malloc function returns NULL. In C++ environment, since std::bad_alloc exception is occurred, it is needed to handle this in catch handler.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_11</rule>
+		<ruleTitle><![CDATA[Check if, when calling memset, the size factor is consistent with the size of target variable.]]></ruleTitle>
+		<ruleDesc><![CDATA[When calling memset, if the size designation factor value is larger than the memory assigned, a buffer overflow error can be occurred. And if the size designation factor value is smaller than the memory assigned, error can be occurred when referencing the uninitialized part due to partial initialization. Therefore memset should be <strong>done as much as </strong> assigned.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_08</rule>
+		<ruleTitle><![CDATA[Check memory leak for local variables]]></ruleTitle>
+		<ruleDesc><![CDATA[If memory is not assigned or released dynamically within a function, memory leak can be occurred. Calling malloc and free functions should be matched.<br/><br/>
+]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_OPERATION_03</rule>
+		<ruleTitle><![CDATA[Check if there are measures for overflow by identifying global variables having overflow occurrence possibility.]]></ruleTitle>
+		<ruleDesc><![CDATA[If there are only integer global variable value-increasing expressions, overflow can be occurred. In specific conditions, there should be code for resetting the values.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_OPERATION_02</rule>
+		<ruleTitle><![CDATA[Check of incorrect type conversion]]></ruleTitle>
+		<ruleDesc><![CDATA[After converting unsigned integer to larger signed integer type, if it is compared to negative number, it may lead to unintended behavior.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_OPERATION_01</rule>
+		<ruleTitle><![CDATA[Check if there is defense code for divide by zero.]]></ruleTitle>
+		<ruleDesc><![CDATA[If it is divided by 0, error is occurred when running a software. Therefore, to avoid divide by zero, it should be used after verifying that the divisor is not 0.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_03</rule>
+		<ruleTitle><![CDATA[Check if there is a defense code for memory assignment size error.]]></ruleTitle>
+		<ruleDesc><![CDATA[When assigning a dynamic memory, it should be used after checking if the size variable is existed within valid range. This rule inspects both an assignment using new operator and an assignment using functions(calloc, malloc). </br>
+]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_04</rule>
+		<ruleTitle><![CDATA[Check if blocks of return statement for one function releases the same resources.]]></ruleTitle>
+		<ruleDesc><![CDATA[If blocks of return statement for one function is several, like the blocks of other return statement, all resources should be released. Otherwise, the block of return statement in certain case may lead to error due to behaviour different from the other blocks.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_05</rule>
+		<ruleTitle><![CDATA[Pointer type members of all classes should be initialized within a constructor.]]></ruleTitle>
+		<ruleDesc><![CDATA[If a pointer type member of class is not initialized explicitly, it can be initialized to invalid address value. When accessing to this member, it may lead to exception due to access to invalid address.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_06</rule>
+		<ruleTitle><![CDATA[Check if a null value is assigned to a global variable or static class member after memory release.]]></ruleTitle>
+		<ruleDesc><![CDATA[If a pointer type global variable or static class member variable is not initialized to null after memory release, it may lead to error when referencing the variables later. Therefore it should be initialized to null after memory release.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_01</rule>
+		<ruleTitle><![CDATA[Check an object before using it]]></ruleTitle>
+		<ruleDesc><![CDATA[An object should be checked if the value of the object is null before using it. <br/>
+<ul style="list-style:none;"><li>
+<pre>
+if( ptr == 0 ){ ... }
+if( ptr != 0 ){ ... }
+if( 0 == ptr ){ ... }
+if( 0 != ptr ){ ... }
+if( ptr ){ ... }
+if( !ptr ){ ... }
+if( ptr = func() != 0 ){ ... }
+if( !(ptr = func()) ){ ... }
+</pre></li></ul>
+]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_02</rule>
+		<ruleTitle><![CDATA[Check if a defense code for buffer overflow is existed.]]></ruleTitle>
+		<ruleDesc><![CDATA[When referencing a specific index of buffer, if the index is not existed within the buffer size, buffer overflow is occurred. Therefore, it should be used after checking the size of index to be referenced.</br>
+]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_LIBRARY_02</rule>
+		<ruleTitle><![CDATA[Check if the specified external library function is used.]]></ruleTitle>
+		<ruleDesc><![CDATA[The system libraries provided by specific toolchain does not often consider the multi-thread environment.  In this case, a wrapper function considering multi-thread environment should be used instead of calling directly the system libraries..<br/><br/>]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_LIBRARY_01</rule>
+		<ruleTitle><![CDATA[Check validity for the second factor value when calling CeSetThreadPriority(function for setting thread priority)]]></ruleTitle>
+		<ruleDesc><![CDATA[When calling CeSetThreadPriority, the second factor is a value for setting thread priority. If this value is set incorrectly, it may lead to unintended behaviour due to incorrect thread priority.
+<ul>
+<li> 0 ~ 96 : Reserved for real-time above drivers.
+<li> 97 ~ 152 : Used by the default Windows CE-based device drivers.
+<li> 153 ~ 247 :  Reserved for real-time below drivers.
+<li> 248 ~ 255 :  Maps to non-real-time priorities.
+</ul> 
+<p>따라서 각 단계의 가장 낮은 값을 인자 값으로 주면 안 된다.</p>]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MEMORY_02_1</rule>
+		<ruleTitle><![CDATA[Check if there exist codes for preventing buffer overflow errors.(for every code)]]></ruleTitle>
+		<ruleDesc><![CDATA[Buffer overflow errors can occur when the buffer is indexed with the value which does not exist in the range of buffer size. Thus the index value should be used after checking it. When developers verify the index value, checking if the value is between the maximum and minimum value of the buffer size is recommended. If a variable is assigned with a constant value and it is used without changes then you can skip checking it.]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MAINTENANCE_02</rule>
+		<ruleTitle><![CDATA[Prohibit to use numerical constant(magic number)]]></ruleTitle>
+		<ruleDesc><![CDATA[It is desirable to use a value having specific meaning by defining macro or const variable etc.<br/> 
+When using <b>macro</b> instead of  <b>constant</b>it can improve readability and minimize the codes affected when changing values due to specification change and etc.]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MAINTENANCE_01</rule>
+		<ruleTitle><![CDATA[Prohibit to use numerical constants for array size when declaring array]]></ruleTitle>
+		<ruleDesc><![CDATA[If a numerical constant value is used for an array size when declaring the array, it is difficult to trace the size of this array in a whole program. Therefore it should be easy to change the array size by setting the size through a variable or macro.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_MAINTENANCE_03</rule>
+		<ruleTitle><![CDATA[Prohibit to assign this to a global variables in public constructor.]]></ruleTitle>
+		<ruleDesc><![CDATA[C++ constructor can be called by several contexts without explicit calling. Therefore if this is assigned to a global variable in public constructor, the global variable may be used differently from developer's intention. In the end, this may lead to unintended behaviour and the reason can not be found in mostly.]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_06</rule>
+		<ruleTitle><![CDATA[Check if a local variable are declared at the minimum scope used.]]></ruleTitle>
+		<ruleDesc><![CDATA[If a value is declared at the minimum block scope, the unintended use can be reduced by minimizing a visibility for the value. The variable requiring to initialize every loop should be declared inside of loop.<br />
+<strong>For a variable corresponding to declaratives of for statement, it is no problem that it is declared outside of loop</strong>]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_04</rule>
+		<ruleTitle><![CDATA[Check if a dynamic-assigned global variable or static member field are assigned(or released) within one function.]]></ruleTitle>
+		<ruleDesc><![CDATA[A dynamic-assigned global variable or static member field should be assigned(or released) within one function. If resources are assigned(or released) from several functions, the resource management becomes complicated resulting in error.<br />
+resource releas is same.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_03</rule>
+		<ruleTitle><![CDATA[Check if all cases of switch statement are ending with break statement.]]></ruleTitle>
+		<ruleDesc><![CDATA[In case of switch statement having sentences, a break should be used.<br />
+<strong>However, the case that a fall through has been intended</strong>(marked with annotation, no sentences between a case statement and the next case statement)<strong>and the case that a default statement is located in the last part of switch statement are exceptions.</strong>
+]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_09</rule>
+		<ruleTitle><![CDATA[Check if similar if conditional expressions are continued.]]></ruleTitle>
+		<ruleDesc><![CDATA[A logic having a flow same as switch case statement can be implemented by using overlapped if and else if clause. At this time, the conditional expressions for each if clause have some form which inspects the conditions for the same variables. If these conditional expressions are connected with if instead of else if, unintended behavior can be occurred.]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_07</rule>
+		<ruleTitle><![CDATA[Check duplication of macro definition]]></ruleTitle>
+		<ruleDesc><![CDATA[If macros having the same name are defined duplicately, it is not efficient with respect to maintenance since the several locations should be changed when changing values. And if macros with the same name having different value are defined duplicately, it is not safe since there are some possibility of mistakes by developer.<br />
+Therefore, it is safe to define macros having the same name and value in one header file, and, if the values are different, to use a different name or manage them in one place according to settings such as #ifdef and etc.<br /><br />
+<ul style="list-style:none;"><li>
+<pre>#ifdef FLAG
+#define MACRO 1
+#else
+#define MACRO 2
+#endif
+</pre></li></ul>
+]]></ruleDesc>
+		<ruleSeverity>매우낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_02</rule>
+		<ruleTitle><![CDATA[Prohibit to use a pointer variable as factor of sizeof]]></ruleTitle>
+		<ruleDesc><![CDATA[Using a pointer variable to sizeof may be different from the intention of developer since the size of pointer type itself is return instead of the size of type pointed by the pointer variable. Therefore it is recommended to use directly the type of variable as the factor of sizeof.<br />
+<strong>If you want to use a point variable, you should check if it is used as dereference operator(*).</strong>]]></ruleDesc>
+		<ruleSeverity>높음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<ruleInfo>
+		<ruleSetName><![CDATA[MOBIS_C]]></ruleSetName>
+		<ruleSetDesc><![CDATA[MOBIS CODING ERROR CRULESET]]></ruleSetDesc>
+		<rule>MOBIS_BAD_PRACTICE_01</rule>
+		<ruleTitle><![CDATA[Check if a return value of a specific function is verified]]></ruleTitle>
+		<ruleDesc><![CDATA[If a non-void function has been called, it is safe to check the return value. <br/>
+In particular, if error status can be judged by the return value, it is safe to check the return value and to treat it as an exception.<br/><br/>
+
+
+<b>If it is used as function calling factor, it is not considered as checked.</b>]]></ruleDesc>
+		<ruleSeverity>낮음</ruleSeverity>
+		<ruleType><![CDATA[기타]]></ruleType>
+	</ruleInfo>
+	<bug>
+		<violationHash>31644721174448932142348738944094419303</violationHash>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindFindText(struct HWND__ *, signed int *, struct tagFINDREPLACEA *)]]></function>
+		<functionStartLine>55</functionStartLine>
+		<functionEndLine>90</functionEndLine>
+		<line>65</line>
+		<rule>MOBIS_MEMORY_08</rule>
+		<ruleTitle><![CDATA[Check memory leak for local variables]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[After assigning the result of calling malloc function, the free function is not called.(memory alloc location:pstrDoc)]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>163540909363825024597673429173195555503</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileSaveDlg(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>50</functionStartLine>
+		<functionEndLine>58</functionEndLine>
+		<line>50</line>
+		<rule>MOBIS_BAD_PRACTICE_14</rule>
+		<ruleTitle><![CDATA[Check if confusable characters are used between identifiers having similar names.]]></ruleTitle>
+		<level>매우낮음</level>
+		<content><![CDATA[식별자 'pstrTitleName'은 식별자 'pstrFileName'와 이름이 유사함(85)]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>16316529685220989846450099779946425576</violationHash>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[DoCaption(struct HWND__ *, char *)]]></function>
+		<functionStartLine>100</functionStartLine>
+		<functionEndLine>108</functionEndLine>
+		<line>102</line>
+		<rule>MOBIS_MAINTENANCE_01</rule>
+		<ruleTitle><![CDATA[Prohibit to use numerical constants for array size when declaring array]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[A digit constant is used for array size of variable szCaption. ]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>176496417833385681653054506681233830804</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>86</line>
+		<rule>MOBIS_MEMORY_02</rule>
+		<ruleTitle><![CDATA[Check if a defense code for buffer overflow is existed.]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[When referencing an array, the maximum value/minimum value of index expression(iFileLength+1) used are not checked.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>28043061024471808615705416605569237055</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileOpenDlg(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>40</functionStartLine>
+		<functionEndLine>48</functionEndLine>
+		<line>40</line>
+		<rule>MOBIS_BAD_PRACTICE_14</rule>
+		<ruleTitle><![CDATA[Check if confusable characters are used between identifiers having similar names.]]></ruleTitle>
+		<level>매우낮음</level>
+		<content><![CDATA[식별자 'pstrTitleName'은 식별자 'pstrFileName'와 이름이 유사함(85)]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>65731960905251612393409200809460268087</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>149</line>
+		<rule>MOBIS_MEMORY_04</rule>
+		<ruleTitle><![CDATA[Check if blocks of return statement for one function releases the same resources.]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[In block containing a return, the same local variable pConv is not released.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>135424479461814624022066807233379822879</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>86</line>
+		<rule>MOBIS_MEMORY_02_1</rule>
+		<ruleTitle><![CDATA[Check if there exist codes for preventing buffer overflow errors.(for every code)]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[When referencing an array, check if an index variable is existed within specific scope.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>55558358336635132783606844945526303780</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>62</line>
+		<rule>MOBIS_BAD_PRACTICE_06</rule>
+		<ruleTitle><![CDATA[Check if a local variable are declared at the minimum scope used.]]></ruleTitle>
+		<level>매우낮음</level>
+		<content><![CDATA[The variable bySwap is not used in the scope declared. ]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>175342807359569523978008109066282542989</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>85</line>
+		<rule>MOBIS_MEMORY_02_1</rule>
+		<ruleTitle><![CDATA[Check if there exist codes for preventing buffer overflow errors.(for every code)]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[When referencing an array, check if an index variable is existed within specific scope.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>14616301169046807055746568338087578661</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>85</line>
+		<rule>MOBIS_MEMORY_02</rule>
+		<ruleTitle><![CDATA[Check if a defense code for buffer overflow is existed.]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[When referencing an array, the maximum value/minimum value of index expression(iFileLength) used are not checked.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>789049364493309748214469144224177144871</violationHash>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindFindText(struct HWND__ *, signed int *, struct tagFINDREPLACEA *)]]></function>
+		<functionStartLine>55</functionStartLine>
+		<functionEndLine>90</functionEndLine>
+		<line>90</line>
+		<rule>MOBIS_MEMORY_04</rule>
+		<ruleTitle><![CDATA[Check if blocks of return statement for one function releases the same resources.]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[In block containing a return, the same local variable pstrDoc is not released.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>125871808035762042023675439099826525309</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>130</line>
+		<rule>MOBIS_MEMORY_10</rule>
+		<ruleTitle><![CDATA[Check if there is defense code for memory assignment failure.]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[There is no defense code for the case that a pointer variable pConv is not assigned.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>963269672814527982110926187099293194824</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<line>149</line>
+		<rule>MOBIS_MEMORY_04</rule>
+		<ruleTitle><![CDATA[Check if blocks of return statement for one function releases the same resources.]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[In block containing a return, the same local variable pBuffer is not released.]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>953189105784442413020820599173392398</violationHash>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[AskAboutSave(struct HWND__ *, char *)]]></function>
+		<functionStartLine>119</functionStartLine>
+		<functionEndLine>135</functionEndLine>
+		<line>121</line>
+		<rule>MOBIS_MAINTENANCE_01</rule>
+		<ruleTitle><![CDATA[Prohibit to use numerical constants for array size when declaring array]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[A digit constant is used for array size of variable szBuffer. ]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>182649647987841998854360912665597470554</violationHash>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[OkMessage(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>110</functionStartLine>
+		<functionEndLine>117</functionEndLine>
+		<line>112</line>
+		<rule>MOBIS_MAINTENANCE_01</rule>
+		<ruleTitle><![CDATA[Prohibit to use numerical constants for array size when declaring array]]></ruleTitle>
+		<level>낮음</level>
+		<content><![CDATA[A digit constant is used for array size of variable szBuffer. ]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<bug>
+		<violationHash>732561682371699390511152368262887697672</violationHash>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileWrite(struct HWND__ *, char *)]]></function>
+		<functionStartLine>151</functionStartLine>
+		<functionEndLine>202</functionEndLine>
+		<line>175</line>
+		<rule>MOBIS_MEMORY_08</rule>
+		<ruleTitle><![CDATA[Check memory leak for local variables]]></ruleTitle>
+		<level>높음</level>
+		<content><![CDATA[After assigning the result of calling malloc function, the free function is not called.(memory alloc location:pstrBuffer)]]></content>
+		<suppression>false</suppression>
+		<suppressionDesc></suppressionDesc>
+	</bug>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<function><![CDATA[PopFontInitialize(struct HWND__ *)]]></function>
+		<functionStartLine>34</functionStartLine>
+		<functionEndLine>41</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>4.0</ndf>
+		<necl>3.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>4.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<function><![CDATA[PopFontChooseFont(struct HWND__ *)]]></function>
+		<functionStartLine>11</functionStartLine>
+		<functionEndLine>32</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>16.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileOpenDlg(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>40</functionStartLine>
+		<functionEndLine>48</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>3.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>5.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileInitialize(struct HWND__ *)]]></function>
+		<functionStartLine>12</functionStartLine>
+		<functionEndLine>38</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>0.0</ndf>
+		<necl>20.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>0.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPrnt0.c</fileName>
+		<function><![CDATA[PopPrntPrintFile(struct HWND__ *, char *)]]></function>
+		<functionStartLine>7</functionStartLine>
+		<functionEndLine>11</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>0.0</ndf>
+		<necl>1.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>0.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindFindDlg(struct HWND__ *)]]></function>
+		<functionStartLine>17</functionStartLine>
+		<functionEndLine>34</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>12.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindReplaceDlg(struct HWND__ *)]]></function>
+		<functionStartLine>36</functionStartLine>
+		<functionEndLine>53</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>12.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[AboutDlgProc(struct HWND__ *, unsigned int, unsigned long long, signed long long)]]></function>
+		<functionStartLine>439</functionStartLine>
+		<functionEndLine>457</functionEndLine>
+		<cc>6.0</cc>
+		<ncl>2.0</ncl>
+		<nfp>4.0</nfp>
+		<ncf>NaN</ncf>
+		<ndf>1.0</ndf>
+		<necl>10.0</necl>
+		<modifiedCyclomaticComplexity>3.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>4.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>3.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindFindText(struct HWND__ *, signed int *, struct tagFINDREPLACEA *)]]></function>
+		<functionStartLine>55</functionStartLine>
+		<functionEndLine>90</functionEndLine>
+		<cc>3.0</cc>
+		<ncl>1.0</ncl>
+		<nfp>3.0</nfp>
+		<ncf>3.0</ncf>
+		<ndf>7.0</ndf>
+		<necl>13.0</necl>
+		<modifiedCyclomaticComplexity>3.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>3.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>3.0</returnPointsCnt>
+		<MCDCCaseCnt>8.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>8.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>100.0</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>7.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindNextText(struct HWND__ *, signed int *)]]></function>
+		<functionStartLine>92</functionStartLine>
+		<functionEndLine>99</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>2.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[AskAboutSave(struct HWND__ *, char *)]]></function>
+		<functionStartLine>119</functionStartLine>
+		<functionEndLine>135</functionEndLine>
+		<cc>3.0</cc>
+		<ncl>2.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>3.0</ndf>
+		<necl>6.0</necl>
+		<modifiedCyclomaticComplexity>3.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>3.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>8.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>12.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>66.666664</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>3.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindReplaceText(struct HWND__ *, signed int *, struct tagFINDREPLACEA *)]]></function>
+		<functionStartLine>101</functionStartLine>
+		<functionEndLine>113</functionEndLine>
+		<cc>2.0</cc>
+		<ncl>1.0</ncl>
+		<nfp>3.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>2.0</ndf>
+		<necl>4.0</necl>
+		<modifiedCyclomaticComplexity>2.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>2.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>2.0</returnPointsCnt>
+		<MCDCCaseCnt>4.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>4.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>100.0</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>2.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[WndProc(struct HWND__ *, unsigned int, unsigned long long, signed long long)]]></function>
+		<functionStartLine>137</functionStartLine>
+		<functionEndLine>437</functionEndLine>
+		<cc>59.0</cc>
+		<ncl>4.0</ncl>
+		<nfp>4.0</nfp>
+		<ncf>NaN</ncf>
+		<ndf>32.0</ndf>
+		<necl>160.0</necl>
+		<modifiedCyclomaticComplexity>27.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>85.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>35.0</returnPointsCnt>
+		<MCDCCaseCnt>94.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>110.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>85.454544</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>32.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<function><![CDATA[PopFindValidFind()]]></function>
+		<functionStartLine>115</functionStartLine>
+		<functionEndLine>118</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>0.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>0.0</ndf>
+		<necl>1.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>0.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[OkMessage(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>110</functionStartLine>
+		<functionEndLine>117</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>3.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>2.0</ndf>
+		<necl>2.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>4.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>2.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[DoCaption(struct HWND__ *, char *)]]></function>
+		<functionStartLine>100</functionStartLine>
+		<functionEndLine>108</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>2.0</ndf>
+		<necl>2.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>4.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>2.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<function><![CDATA[WinMain(struct HINSTANCE__ *, struct HINSTANCE__ *, char *, signed int)]]></function>
+		<functionStartLine>49</functionStartLine>
+		<functionEndLine>98</functionEndLine>
+		<cc>5.0</cc>
+		<ncl>3.0</ncl>
+		<nfp>4.0</nfp>
+		<ncf>NaN</ncf>
+		<ndf>14.0</ndf>
+		<necl>23.0</necl>
+		<modifiedCyclomaticComplexity>5.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>5.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>2.0</returnPointsCnt>
+		<MCDCCaseCnt>17.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>17.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>100.0</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>14.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<function><![CDATA[PopFontSetFont(struct HWND__ *)]]></function>
+		<functionStartLine>43</functionStartLine>
+		<functionEndLine>54</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>1.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>5.0</ndf>
+		<necl>6.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>5.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileWrite(struct HWND__ *, char *)]]></function>
+		<functionStartLine>151</functionStartLine>
+		<functionEndLine>202</functionEndLine>
+		<cc>4.0</cc>
+		<ncl>1.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>7.0</ndf>
+		<necl>16.0</necl>
+		<modifiedCyclomaticComplexity>4.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>4.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>4.0</returnPointsCnt>
+		<MCDCCaseCnt>12.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>12.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>100.0</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>7.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<function><![CDATA[PopFontDeinitialize()]]></function>
+		<functionStartLine>56</functionStartLine>
+		<functionEndLine>59</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>0.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>1.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>0.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileSaveDlg(struct HWND__ *, char *, char *)]]></function>
+		<functionStartLine>50</functionStartLine>
+		<functionEndLine>58</functionEndLine>
+		<cc>1.0</cc>
+		<ncl>0.0</ncl>
+		<nfp>3.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>1.0</ndf>
+		<necl>5.0</necl>
+		<modifiedCyclomaticComplexity>1.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>1.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>1.0</returnPointsCnt>
+		<MCDCCaseCnt>0.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>0.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>NaN</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>1.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<metric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<function><![CDATA[PopFileRead(struct HWND__ *, char *)]]></function>
+		<functionStartLine>60</functionStartLine>
+		<functionEndLine>149</functionEndLine>
+		<cc>5.0</cc>
+		<ncl>3.0</ncl>
+		<nfp>2.0</nfp>
+		<ncf>1.0</ncf>
+		<ndf>10.0</ndf>
+		<necl>27.0</necl>
+		<modifiedCyclomaticComplexity>5.0</modifiedCyclomaticComplexity>
+		<myersInterval>0.0</myersInterval>
+		<staticPathsCnt>5.0</staticPathsCnt>
+		<gotoStatementsCnt>0.0</gotoStatementsCnt>
+		<returnPointsCnt>2.0</returnPointsCnt>
+		<MCDCCaseCnt>16.0</MCDCCaseCnt>
+		<booleanExpressionMCDCCaseCnt>16.0</booleanExpressionMCDCCaseCnt>
+		<effectivenessOfDecisionMCDCCnt>100.0</effectivenessOfDecisionMCDCCnt>
+		<avgStatementsSize>NaN</avgStatementsSize>
+		<componentStressComplexity>NaN</componentStressComplexity>
+		<distinctOperandsCnt>NaN</distinctOperandsCnt>
+		<distinctOperatorsCnt>NaN</distinctOperatorsCnt>
+		<distinctCalleesCnt>10.0</distinctCalleesCnt>
+		<operandsCnt>NaN</operandsCnt>
+		<operatorsCnt>NaN</operatorsCnt>
+		<vocabularySize>NaN</vocabularySize>
+		<languageScope>NaN</languageScope>
+		<decisionStatmentCnt>NaN</decisionStatmentCnt>
+	</metric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\PopFile.c</fileName>
+		<functionCnt>5</functionCnt>
+		<physicalLineCnt>203.0</physicalLineCnt>
+		<lineOfCodeCnt>134.0</lineOfCodeCnt>
+		<lineOfCommentCnt>27</lineOfCommentCnt>
+	</fileMetric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\PopFind.c</fileName>
+		<functionCnt>6</functionCnt>
+		<physicalLineCnt>119.0</physicalLineCnt>
+		<lineOfCodeCnt>73.0</lineOfCodeCnt>
+		<lineOfCommentCnt>13</lineOfCommentCnt>
+	</fileMetric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\PopFont.c</fileName>
+		<functionCnt>4</functionCnt>
+		<physicalLineCnt>60.0</physicalLineCnt>
+		<lineOfCodeCnt>46.0</lineOfCodeCnt>
+		<lineOfCommentCnt>4</lineOfCommentCnt>
+	</fileMetric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\PopPad.c</fileName>
+		<functionCnt>6</functionCnt>
+		<physicalLineCnt>458.0</physicalLineCnt>
+		<lineOfCodeCnt>334.0</lineOfCodeCnt>
+		<lineOfCommentCnt>25</lineOfCommentCnt>
+	</fileMetric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\RESOURCE.H</fileName>
+		<functionCnt>0</functionCnt>
+		<physicalLineCnt>35.0</physicalLineCnt>
+		<lineOfCodeCnt>27.0</lineOfCodeCnt>
+		<lineOfCommentCnt>6</lineOfCommentCnt>
+	</fileMetric>
+	<fileMetric>
+		<fileName>C:\Temp\poppad\PopPrnt0.c</fileName>
+		<functionCnt>1</functionCnt>
+		<physicalLineCnt>12.0</physicalLineCnt>
+		<lineOfCodeCnt>6.0</lineOfCodeCnt>
+		<lineOfCommentCnt>3</lineOfCommentCnt>
+	</fileMetric>
+</ci.CodeInspectorResult>

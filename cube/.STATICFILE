@@ -10,8 +10,8 @@
         "cube.sln",
         "/t:rebuild"
     ],
-    "STATIC_SERVER_ADDRESS": "211.116.222.197",
-    "PROJECT_KEY": "GITTEST",
+    "STATIC_SERVER_ADDRESS": "211.116.223.171",
+    "PROJECT_KEY": "SPTEST",
     "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2015_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PopPad3">
+</Property><Property Name="솔루션 파일" Value="D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.sln">
+</Property><Property Name="사용자 옵션 파일" Value="D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.suo">
+</Property><Property Name="Date" Value="2016년 6월 24일 금요일">
+</Property><Property Name="Time" Value="오전 9:29">
+</Property><Property Name="로그 번호" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="PopPad3.sln" Description="백업 파일 만들기 오류: D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="PopPad3.suo" Description="백업 파일 만들기 오류: D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.suo.old">
+</Event><Event ErrorLevel="0" Project="PopPad3" Source="PopPad3.vcproj" Description="Converting project file 'D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.vcproj'.">
+</Event><Event ErrorLevel="1" Project="PopPad3" Source="PopPad3.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="PopPad3" Source="PopPad3.vcproj" Description="MSB8012: $(TargetPath) ('D:\backup\cover\v2.6\v2.6\PopPad3\.\Debug\PopPad3.exe') does not match the Linker's OutputFile property value '.\Debug/PopPad3.exe' ('D:\backup\cover\v2.6\v2.6\PopPad3\Debug/PopPad3.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="PopPad3" Source="PopPad3.vcproj" Description="MSB8012: $(TargetPath) ('D:\backup\cover\v2.6\v2.6\PopPad3\.\Release\PopPad3.exe') does not match the Linker's OutputFile property value '.\Release/PopPad3.exe' ('D:\backup\cover\v2.6\v2.6\PopPad3\Release/PopPad3.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="PopPad3" Source="PopPad3.vcproj" Description="Done converting to new project file 'D:\backup\cover\v2.6\v2.6\PopPad3\PopPad3.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="PopPad3" Source="PopPad3.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PopPad3.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="PopPad3.sln" Description="Converted">
+</Event></UpgradeLog>

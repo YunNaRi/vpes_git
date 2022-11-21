@@ -1,0 +1,126 @@
+(19808)(    1)ME: C:\WINDOWS\system32\cmd.exe
+(19808)(    1) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(19808)(    1) + WORKING: C:\Temp\poppad\.staticdata
+(19808) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(19808)(    1) + Ignored EXENAME: cmd
+(13252)(    2)ME: C:\WINDOWS\system32\chcp.com
+(13252)(    2) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(13252)(    2) + WORKING: C:\Temp\poppad\.staticdata
+(13252) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(13252)(    2) + Ignored EXENAME: chcp
+(25076)(    3)ME: C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe
+(25076)(    3) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(25076)(    3) + WORKING: C:\Temp\poppad\.staticdata
+(25076) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(25076)(    3)ME: C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe
+(25076)(    3) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(25076)(    3) + WORKING: C:\Temp\poppad\.staticdata
+(25076) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(59112)(    4)ME: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+(59112)(    4) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(59112)(    4) + WORKING: C:\Temp\poppad\.staticdata
+(59112) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(59112)(    4) + Ignored EXENAME: csc
+(36896)(    5)ME: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+(36896)(    5) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(36896)(    5) + WORKING: C:\Temp\poppad\.staticdata
+(36896) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(36896)(    5) + Ignored EXENAME: cvtres
+(36896)(    5)ME: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+(36896)(    5) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(36896)(    5) + WORKING: C:\Temp\poppad\.staticdata
+(36896) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(59112)(    4)ME: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+(59112)(    4) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(59112)(    4) + WORKING: C:\Temp\poppad\.staticdata
+(59112) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(52556)(    6)ME: C:\WINDOWS\system32\conhost.exe
+(52556)(    6) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(52556)(    6) + WORKING: C:\Temp\poppad\.staticdata
+(52556) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(52556)(    6) + Ignored EXENAME: conhost
+(29604)(    7)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(29604)(    7) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(29604)(    7) + WORKING: C:\Temp\poppad\.staticdata
+(29604) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(29604)(    7) + Ignored EXENAME: tracker
+(10840)(    9)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\mspdbsrv.exe
+(10840)(    9) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(10840)(    9) + WORKING: C:\Temp\poppad\.staticdata
+(10840) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(10840)(    9) + Ignored EXENAME: mspdbsrv
+(56444)(    8)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe
+(56444)(    8) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(56444)(    8) + WORKING: C:\Temp\poppad\.staticdata
+(56444) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(56444)(    8)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe
+(56444)(    8) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(56444)(    8) + WORKING: C:\Temp\poppad\.staticdata
+(56444) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(29604)(    7)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(29604)(    7) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(29604)(    7) + WORKING: C:\Temp\poppad\.staticdata
+(29604) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(57252)(   10)ME: C:\WINDOWS\system32\conhost.exe
+(57252)(   10) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(57252)(   10) + WORKING: C:\Temp\poppad\.staticdata
+(57252) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(57252)(   10) + Ignored EXENAME: conhost
+(42836)(   11)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(42836)(   11) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(42836)(   11) + WORKING: C:\Temp\poppad\.staticdata
+(42836) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(42836)(   11) + Ignored EXENAME: tracker
+(55668)(   12)ME: C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe
+(55668)(   12) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(55668)(   12) + WORKING: C:\Temp\poppad\.staticdata
+(55668) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(55668)(   12) + Ignored EXENAME: rc
+(55668)(   12)ME: C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe
+(55668)(   12) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(55668)(   12) + WORKING: C:\Temp\poppad\.staticdata
+(55668) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(42836)(   11)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(42836)(   11) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(42836)(   11) + WORKING: C:\Temp\poppad\.staticdata
+(42836) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(42392)(   13)ME: C:\WINDOWS\system32\conhost.exe
+(42392)(   13) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(42392)(   13) + WORKING: C:\Temp\poppad\.staticdata
+(42392) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(42392)(   13) + Ignored EXENAME: conhost
+(46116)(   14)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(46116)(   14) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(46116)(   14) + WORKING: C:\Temp\poppad\.staticdata
+(46116) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(46116)(   14) + Ignored EXENAME: tracker
+(51012)(   16)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cvtres.exe
+(51012)(   16) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(51012)(   16) + WORKING: C:\Temp\poppad\.staticdata
+(51012) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(51012)(   16) + Ignored EXENAME: cvtres
+(51012)(   16)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cvtres.exe
+(51012)(   16) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(51012)(   16) + WORKING: C:\Temp\poppad\.staticdata
+(51012) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(39308)(   15)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe
+(39308)(   15) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(39308)(   15) + WORKING: C:\Temp\poppad\.staticdata
+(39308) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(39308)(   15)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe
+(39308)(   15) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(39308)(   15) + WORKING: C:\Temp\poppad\.staticdata
+(39308) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(46116)(   14)ME: C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe
+(46116)(   14) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(46116)(   14) + WORKING: C:\Temp\poppad\.staticdata
+(46116) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(53216)(   17)ME: C:\WINDOWS\system32\chcp.com
+(53216)(   17) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(53216)(   17) + WORKING: C:\Temp\poppad\.staticdata
+(53216) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(53216)(   17) + Ignored EXENAME: chcp
+(10840)(    9)ME: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\mspdbsrv.exe
+(10840)(    9) + HOME: C:\Users\SURESOFT\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.8\
+(10840)(    9) + WORKING: C:\Temp\poppad\.staticdata
+(10840) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr

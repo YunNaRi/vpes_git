@@ -1,0 +1,12 @@
+{
+    "schemaVersion": "1.0",
+    "modules": [
+        {
+            "name": "DEBUG-POPPAD3.EXE",
+            "linkFlags": "\"/ERRORREPORT:QUEUE\" \"/OUT:\".\\Debug/PopPad3.exe\"\" \"/INCREMENTAL:NO\" \"/NOLOGO\" \"kernel32.lib\" \"user32.lib\" \"gdi32.lib\" \"winspool.lib\" \"comdlg32.lib\" \"advapi32.lib\" \"shell32.lib\" \"ole32.lib\" \"oleaut32.lib\" \"uuid.lib\" \"odbc32.lib\" \"odbccp32.lib\" \"/MANIFEST:NO\" \"/D\" \"EBUG\" \"/PDB:\".\\Debug/PopPad3.pdb\"\" \"/SUBSYSTEM:WINDOWS\" \"/TLBID:1\" \"/D\" \"YNAMICBASE:NO\" \"/IMPLIB:\".\\Debug\\PopPad3.lib\"\" \"/MACHINE:X86\" \"/SAFESEH\" \"/cov\" \"C:\\Temp\\poppad\\Debug\\poppad.res\" \"C:\\Temp\\poppad\\Debug\\PopFile.obj\" \"C:\\Temp\\poppad\\Debug\\PopFind.obj\" \"C:\\Temp\\poppad\\Debug\\PopFont.obj\" \"C:\\Temp\\poppad\\Debug\\PopPad.obj\" \"C:\\Temp\\poppad\\Debug\\PopPrnt0.obj\"",
+            "linkType": "execute",
+            "sources": [],
+            "dependencies": []
+        }
+    ]
+}
