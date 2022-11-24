@@ -1,8 +1,8 @@
 {
     "capture_setting": {
-        "build_hooking": false,
+        "build_hooking": true,
         "preprocessor": "original"
     },
-    "last_validation_time": "2022-11-08T06:20:22.948Z",
-    "last_capture_time": "2022-11-08T06:20:22.948Z"
+    "last_validation_time": "2022-11-24T01:14:03.125Z",
+    "last_capture_time": "2022-11-24T01:14:03.125Z"
 }
