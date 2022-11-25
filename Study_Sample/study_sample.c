@@ -16,9 +16,9 @@ struct { int test_yoon_a ; } ;
 static struct { int test_yoon_a ; } ;
 #endif
 
-//char	*e1[] = {"", "White", "", "", "Black", "", "", "Gray", "Blue"};
-//char	*e2[] = {"Kim", "Lee", "Park"};
-//char	*e3[] = {"On", "Off"} ;
+/*char	*e1[] = {"", "White", "", "", "Black", "", "", "Gray", "Blue"};*/
+/*char	*e2[] = {"Kim", "Lee", "Park"};*/
+/*char	*e3[] = {"On", "Off"} ;*/
 /*int test_stub0();*/
 int test_stub1();
 
@@ -167,21 +167,33 @@ void api(int a, char b, float c, unsigned long int d, long double e)
 	
 	while ( b != 0 ) {
 		if ( a < 10 )
+		{
 			ret -= a;
+		}
 		else
+		{
 			ret += a;
+		}
 		if ( d > 50 )
+		{
 			ret += d;
+		}
 		b--;
 	}
 	
 	if ( d == 0 && global0 == 0)
+	{
 		ret *= d;
+	}
 
 	if ( e != 0 && stubFunc1() != 1)
+	{
 		ret *= e;
+	}
 	else
+	{
 		ret *= 2;
+	}
 	
 
 	printf("\n=========== enum enm3 api2(enum enm1 a, Enm2 b) Output ===================\n");
@@ -195,7 +207,7 @@ enum enm3 api2(enum enm1 a, Enm2 b)
 	
 	printf("=========== enum enm3 api2(enum enm1 a, Enm2 b) Input ===================\n");
 	printf("enum enm1 (1,4,7,8): %d\n", a );
-	//printf("enum enm1 (White, Black, Gray, Blue): %s\n", e1[a]);
+	/*printf("enum enm1 (White, Black, Gray, Blue): %s\n", e1[a]);*/
 	printf("Enm2 (0,1,2): %d\n", b);
 	/*printf("Enm2 (Kim, Lee, Park): %s\n", e2[b]);*/
 
@@ -214,7 +226,7 @@ enum enm3 api2(enum enm1 a, Enm2 b)
 
 	printf("\n=========== enum enm3 api2(enum enm1 a, Enm2 b) Output ===================\n");
 	printf("enum enm3 (0,1): %d\n", ret);
-	//printf("enum enm3 (On, Off): %s\n", e3[ret]);
+	/*printf("enum enm3 (On, Off): %s\n", e3[ret]);*/
 	printf("=========== Output end ===================\n");
 	return ret;
 }

@@ -3,7 +3,7 @@
 struct { int test_yoon_a ; } ;
 #endif
 
-enum enm1 {White=1, Black=4, Blue=8, Gray=7}; // test;
+enum enm1 {White=1, Black=4, Blue=8, Gray=7}; /* test;*/
 typedef enum {Kim, Lee, Park} Enm2;
 enum enm3 {On, Off};
 
