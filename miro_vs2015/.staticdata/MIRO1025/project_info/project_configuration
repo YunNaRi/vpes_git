@@ -4,5 +4,5 @@
     "ci_ini": "",
     "psionic_ini": "",
     "spec": "[\n  {\n    NAME: Default\n    SOURCES: []\n  }\n]",
-    "static-client": "{\n\n    \"capture_setting\": {\n\n        \"build_hooking\": true,\n\n        \"preprocessor\": \"original\"\n\n    },\n\n    \"last_validation_time\": \"2022-11-24T01:14:03.125Z\",\n\n    \"last_capture_time\": \"2022-11-24T01:14:03.125Z\"\n\n}"
+    "static-client": "{\n\n    \"capture_setting\": {\n\n        \"build_hooking\": true,\n\n        \"preprocessor\": \"original\"\n\n    },\n\n    \"last_validation_time\": \"2022-11-27T23:51:40.121Z\",\n\n    \"last_capture_time\": \"2022-11-27T23:51:40.121Z\"\n\n}"
 }
