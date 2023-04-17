@@ -1,0 +1,45 @@
+[2021-04-14 오후 3:27:30] [PROGRESS] 010
+[2021-04-14 오후 3:27:30] [INFO] - Solution file: D:\VPES\COVEREE\Tetris\Tetris.sln
+[2021-04-14 오후 3:27:30] [INFO] - Output path  : D:\VPES\COVEREE\Tetris\.static\TEST
+
+[2021-04-14 오후 3:27:30] [PROGRESS] 020
+[2021-04-14 오후 3:27:30] [INFO] Open the solution file.
+[2021-04-14 오후 3:27:33] [INFO] Initialize data.
+[2021-04-14 오후 3:27:33] [PROGRESS] 030
+[2021-04-14 오후 3:27:33] [INFO] Start calculating metrics.
+[2021-04-14 오후 3:27:33] [PROGRESS] 040
+[2021-04-14 오후 3:27:33] [INFO] Start collecting information of the called function(s)
+[2021-04-14 오후 3:27:35] [DEBUG] The execution time of collecting called func: 2598ms
+[2021-04-14 오후 3:27:35] [PROGRESS] 055
+[2021-04-14 오후 3:27:35] [DEBUG] The execution time of collecting total metric: 58ms
+[2021-04-14 오후 3:27:35] [DEBUG] Set timeout as 180000 milliseconds
+[2021-04-14 오후 3:27:35] [INFO] [1/4] Tetris.GameEngine
+[2021-04-14 오후 3:27:35] [DEBUG] Checking module name...
+[2021-04-14 오후 3:27:35] [DEBUG] Module name : Tetris.GameEngine
+[2021-04-14 오후 3:27:35] [DEBUG] Calculating for 7 files...
+[2021-04-14 오후 3:27:35] [DEBUG] The execution time of collecting file metric: 12ms
+[2021-04-14 오후 3:27:35] [DEBUG] The execution time: 108ms
+[2021-04-14 오후 3:27:35] [PROGRESS] 068
+[2021-04-14 오후 3:27:35] [INFO] [2/4] Tetris.GameEngine.Test
+[2021-04-14 오후 3:27:35] [DEBUG] Checking module name...
+[2021-04-14 오후 3:27:35] [DEBUG] Module name : Tetris.GameEngine.Test
+[2021-04-14 오후 3:27:35] [DEBUG] Calculating for 5 files...
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time of collecting file metric: 44ms
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time: 103ms
+[2021-04-14 오후 3:27:36] [PROGRESS] 077
+[2021-04-14 오후 3:27:36] [INFO] [3/4] Tetris.ConsoleUI
+[2021-04-14 오후 3:27:36] [DEBUG] Checking module name...
+[2021-04-14 오후 3:27:36] [DEBUG] Module name : Tetris.ConsoleUI
+[2021-04-14 오후 3:27:36] [DEBUG] Calculating for 4 files...
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time of collecting file metric: 13ms
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time: 106ms
+[2021-04-14 오후 3:27:36] [PROGRESS] 086
+[2021-04-14 오후 3:27:36] [INFO] [4/4] Tetris.DesktopUI
+[2021-04-14 오후 3:27:36] [DEBUG] Checking module name...
+[2021-04-14 오후 3:27:36] [DEBUG] Module name : Tetris.DesktopUI
+[2021-04-14 오후 3:27:36] [DEBUG] Calculating for 6 files...
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time of collecting file metric: 3ms
+[2021-04-14 오후 3:27:36] [DEBUG] The execution time: 107ms
+[2021-04-14 오후 3:27:36] [PROGRESS] 095
+[2021-04-14 오후 3:27:36] [PROGRESS] 100
+[2021-04-14 오후 3:27:36] [INFO] Execution Time: 00:00:06

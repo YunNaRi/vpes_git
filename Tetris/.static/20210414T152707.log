@@ -1,0 +1,256 @@
+[INFO ] [main] Importing project.
+[INFO ] [main] Importing ruleSet.
+[INFO ] [main] Importing analysis exclusion.
+[INFO ] [main] Creating new revision.
+[INFO ] [main] ----------------------SolutionBuilder----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\flair\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.4\SolutionBuilder\SolutionBuilder.exe,-s,D:\VPES\COVEREE\Tetris\Tetris.sln,-o,D:\VPES\COVEREE\Tetris\.static\TEST,-c,D:\VPES\COVEREE\Tetris\.static\TEST\sb_option.json,"]
+[INFO ] [SolutionBuilder] Active code page: 65001
+[INFO ] [SolutionBuilder] [INFO] *******************************
+[INFO ] [SolutionBuilder] [INFO] SolutionBuilder 1.2.0.1
+[INFO ] [SolutionBuilder] [INFO] *******************************
+[INFO ] [SolutionBuilder] [INFO] Parsing the arguments.
+[INFO ] [SolutionBuilder] [INFO] - Solution file: D:\VPES\COVEREE\Tetris\Tetris.sln
+[INFO ] [SolutionBuilder] [INFO] - Output path  : D:\VPES\COVEREE\Tetris\.static\TEST
+[INFO ] [SolutionBuilder] [INFO] - Config path  : D:\VPES\COVEREE\Tetris\.static\TEST\sb_option.json
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] SetEnvVariable - MSBUILD_EXE_PATH :C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
+[INFO ] [SolutionBuilder] [INFO] Open the solution file.
+[INFO ] [SolutionBuilder] [INFO] Open the project file(s).
+[INFO ] [SolutionBuilder] [INFO] Collecting the data.
+[INFO ] [SolutionBuilder] [INFO] Start Compile.
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] Project: Tetris.GameEngine
+[INFO ] [SolutionBuilder] [INFO] Project: Tetris.ConsoleUI
+[INFO ] [SolutionBuilder] [INFO] Project: Tetris.DesktopUI
+[INFO ] [SolutionBuilder] [INFO] Project: Tetris.GameEngine.Test
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] 
+[INFO ] [SolutionBuilder] [INFO] Compilation Finished
+[INFO ] [SolutionBuilder] [INFO] assemblyName / OutPutType - Tetris.GameEngine / Library
+[INFO ] [SolutionBuilder] [INFO] extension - .dll
+[INFO ] [SolutionBuilder] [INFO] Project option - Tetris.GameEngine, |
+[INFO ] [SolutionBuilder] [INFO] OutputPath - D:\VPES\COVEREE\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+[INFO ] [SolutionBuilder] [INFO] Original Output Path: D:\VPES\COVEREE\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+[INFO ] [SolutionBuilder] [INFO] D:\VPES\COVEREE\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll is exist
+[INFO ] [SolutionBuilder] [INFO] assemblyName / OutPutType - Tetris.ConsoleUI / Exe
+[INFO ] [SolutionBuilder] [INFO] extension - .exe
+[INFO ] [SolutionBuilder] [INFO] Project option - Tetris.ConsoleUI, |
+[INFO ] [SolutionBuilder] [INFO] OutputPath - D:\VPES\COVEREE\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe
+[INFO ] [SolutionBuilder] [INFO] Original Output Path: D:\VPES\COVEREE\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe
+[INFO ] [SolutionBuilder] [INFO] D:\VPES\COVEREE\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe is exist
+[INFO ] [SolutionBuilder] [INFO] assemblyName / OutPutType - Tetris.DesktopUI / WinExe
+[INFO ] [SolutionBuilder] [INFO] extension - .exe
+[INFO ] [SolutionBuilder] [INFO] Project option - Tetris.DesktopUI, |
+[INFO ] [SolutionBuilder] [INFO] OutputPath - D:\VPES\COVEREE\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe
+[INFO ] [SolutionBuilder] [INFO] Original Output Path: D:\VPES\COVEREE\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe
+[INFO ] [SolutionBuilder] [INFO] D:\VPES\COVEREE\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe is exist
+[INFO ] [SolutionBuilder] [INFO] assemblyName / OutPutType - Tetris.GameEngine.Test / Library
+[INFO ] [SolutionBuilder] [INFO] extension - .dll
+[INFO ] [SolutionBuilder] [INFO] Project option - Tetris.GameEngine.Test, |
+[INFO ] [SolutionBuilder] [INFO] OutputPath - D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll
+[INFO ] [SolutionBuilder] [INFO] Original Output Path: D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll
+[INFO ] [SolutionBuilder] [INFO] D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll is exist
+[INFO ] [SolutionBuilder] [INFO] Create .STATICCSHARP file.
+[INFO ] [SolutionBuilder] [INFO] Execution TIme: 00:00:06
+[INFO ] [main] Start Analysis.
+[INFO ] [main] Updating revision.: PENDING
+[INFO ] [main] Updating revision.: ANALYZING
+[INFO ] [main] -----------------------FxCopExecutor-----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe,/file:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.GameEngine\net45\Tetris.GameEngine.dll,/out:D:\VPES\COVEREE\Tetris\.static\TEST\1618381637032.fxcop.xml,/ruleset:-D:\VPES\COVEREE\Tetris\.static\TEST\all.ruleset,/ruleset:+D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset,/gac,"]
+[INFO ] [FxCopExecutor] Active code page: 65001
+[INFO ] [FxCopExecutor] Microsoft (R) FxCop 명령줄 도구, 버전 16.0(16.0.30907.39) X86
+[INFO ] [FxCopExecutor] Copyright (C) Microsoft Corporation, All Rights Reserved.
+[INFO ] [FxCopExecutor] 
+[INFO ] [FxCopExecutor] dataflowrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] designrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] globalizationrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] interoperabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] maintainabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] mobilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] namingrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] performancerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] portabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] reliabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securitytransparencyrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] usagerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Tetris.GameEngine.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Introspection 엔진을 초기화하고 있습니다...
+[INFO ] [FxCopExecutor] 분석하고 있습니다...
+[INFO ] [FxCopExecutor] 분석 완료.
+[INFO ] [FxCopExecutor] 19 메시지를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] D:\VPES\COVEREE\Tetris\.static\TEST\1618381637032.fxcop.xml에 보고서를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] 완료:00:00:01.2711185
+[INFO ] [main] -----------------------FxCopExecutor-----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe,/file:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.ConsoleUI\net45\Tetris.ConsoleUI.exe,/out:D:\VPES\COVEREE\Tetris\.static\TEST\1618381638743.fxcop.xml,/ruleset:-D:\VPES\COVEREE\Tetris\.static\TEST\all.ruleset,/ruleset:+D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset,/directory:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.GameEngine\net45,/gac,"]
+[INFO ] [FxCopExecutor] Active code page: 65001
+[INFO ] [FxCopExecutor] Microsoft (R) FxCop 명령줄 도구, 버전 16.0(16.0.30907.39) X86
+[INFO ] [FxCopExecutor] Copyright (C) Microsoft Corporation, All Rights Reserved.
+[INFO ] [FxCopExecutor] 
+[INFO ] [FxCopExecutor] dataflowrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] designrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] globalizationrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] interoperabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] maintainabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] mobilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] namingrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] performancerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] portabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] reliabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securitytransparencyrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] usagerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Tetris.ConsoleUI.exe을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Introspection 엔진을 초기화하고 있습니다...
+[INFO ] [FxCopExecutor] 분석하고 있습니다...
+[INFO ] [FxCopExecutor] 분석 완료.
+[INFO ] [FxCopExecutor] 6 메시지를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] D:\VPES\COVEREE\Tetris\.static\TEST\1618381638743.fxcop.xml에 보고서를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] 완료:00:00:01.1728616
+[INFO ] [main] -----------------------FxCopExecutor-----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe,/file:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.DesktopUI\net45\Tetris.DesktopUI.exe,/out:D:\VPES\COVEREE\Tetris\.static\TEST\1618381640217.fxcop.xml,/ruleset:-D:\VPES\COVEREE\Tetris\.static\TEST\all.ruleset,/ruleset:+D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset,/gac,"]
+[INFO ] [FxCopExecutor] Active code page: 65001
+[INFO ] [FxCopExecutor] Microsoft (R) FxCop 명령줄 도구, 버전 16.0(16.0.30907.39) X86
+[INFO ] [FxCopExecutor] Copyright (C) Microsoft Corporation, All Rights Reserved.
+[INFO ] [FxCopExecutor] 
+[INFO ] [FxCopExecutor] dataflowrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] designrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] globalizationrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] interoperabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] maintainabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] mobilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] namingrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] performancerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] portabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] reliabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securitytransparencyrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] usagerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Tetris.DesktopUI.exe을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Introspection 엔진을 초기화하고 있습니다...
+[INFO ] [FxCopExecutor] 분석하고 있습니다...
+[INFO ] [FxCopExecutor] 분석 완료.
+[INFO ] [FxCopExecutor] 7 메시지를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] D:\VPES\COVEREE\Tetris\.static\TEST\1618381640217.fxcop.xml에 보고서를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] 완료:00:00:01.2734516
+[INFO ] [main] -----------------------FxCopExecutor-----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe,/file:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.GameEngine.Test\net45\Tetris.GameEngine.Test.dll,/out:D:\VPES\COVEREE\Tetris\.static\TEST\1618381641793.fxcop.xml,/ruleset:-D:\VPES\COVEREE\Tetris\.static\TEST\all.ruleset,/ruleset:+D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset,/directory:D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.GameEngine\net45,/gac,"]
+[INFO ] [FxCopExecutor] Active code page: 65001
+[INFO ] [FxCopExecutor] Microsoft (R) FxCop 명령줄 도구, 버전 16.0(16.0.30907.39) X86
+[INFO ] [FxCopExecutor] Copyright (C) Microsoft Corporation, All Rights Reserved.
+[INFO ] [FxCopExecutor] 
+[INFO ] [FxCopExecutor] dataflowrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] designrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] globalizationrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] interoperabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] maintainabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] mobilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] namingrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] performancerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] portabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] reliabilityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securityrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] securitytransparencyrules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] usagerules.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Tetris.GameEngine.Test.dll을(를) 로드했습니다...
+[INFO ] [FxCopExecutor] Introspection 엔진을 초기화하고 있습니다...
+[INFO ] [FxCopExecutor] 분석하고 있습니다...
+[INFO ] [FxCopExecutor] 분석 완료.
+[INFO ] [FxCopExecutor] 24 메시지를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] D:\VPES\COVEREE\Tetris\.static\TEST\1618381641793.fxcop.xml에 보고서를 쓰고 있습니다...
+[INFO ] [FxCopExecutor] 완료:00:00:01.3538780
+[INFO ] [main] ----------------------StyleCopExecutor----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\flair\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.4\StyleCopCmd\StyleCopCmd.exe,/file:D:\VPES\COVEREE\Tetris\Tetris.sln,/out:D:\VPES\COVEREE\Tetris\.static\TEST\1618381643484.stylecop.json,/rules:D:\VPES\COVEREE\Tetris\.static\TEST\active_rules.json,/config:D:\VPES\COVEREE\Tetris\.static\TEST\sb_option.json,"]
+[INFO ] [StyleCopExecutor] Active code page: 65001
+[INFO ] [StyleCopExecutor] [INFO] *******************************
+[INFO ] [StyleCopExecutor] [INFO] StyleCopCmd 1.2.0.0
+[INFO ] [StyleCopExecutor] [INFO] *******************************
+[INFO ] [StyleCopExecutor] [INFO] Parsing the arguments.
+[INFO ] [StyleCopExecutor] [INFO] Solution file: D:\VPES\COVEREE\Tetris\Tetris.sln
+[INFO ] [StyleCopExecutor] [INFO] Output path  : D:\VPES\COVEREE\Tetris\.static\TEST\1618381643484.stylecop.json
+[INFO ] [StyleCopExecutor] [INFO] Loaded Tetris.sln in 2974ms
+[INFO ] [StyleCopExecutor] [INFO] Start Analysis
+[INFO ] [StyleCopExecutor] [INFO] Finish Analysis
+[INFO ] [StyleCopExecutor] [INFO] SA1000: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1001: 4 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1003: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1005: 25 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1008: 17 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1009: 28 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1012: 4 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1013: 4 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1024: 3 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1025: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1028: 49 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1101: 80 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1106: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1107: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1119: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1124: 28 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1200: 51 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1201: 7 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1202: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1204: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1208: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1210: 5 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1214: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1309: 21 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1311: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1400: 6 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1413: 2 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1500: 8 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1503: 4 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1508: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1513: 29 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1515: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1516: 5 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1518: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1600: 125 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1601: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1602: 4 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1611: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1629: 14 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1633: 19 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1642: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] SA1649: 1 instances
+[INFO ] [StyleCopExecutor] [INFO] Found 563 diagnostics in 3080ms
+[INFO ] [StyleCopExecutor] [INFO] Write diagnostics to output file
+[INFO ] [StyleCopExecutor] [INFO] Execution Time: 00:00:06
+[INFO ] [main] ----------------------MetricCalculator----------------------
+[INFO ] [main] Execute [cmd,/c,chcp,65001,&,cmd,/c,",C:\Users\flair\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C# v1.2.4\MetricCalculator\MetricCalculator.exe,-s,D:\VPES\COVEREE\Tetris\Tetris.sln,-e,D:\VPES\COVEREE\Tetris\.static\TEST\.excluded,-o,D:\VPES\COVEREE\Tetris\.static\TEST,-c,D:\VPES\COVEREE\Tetris\.static\TEST\sb_option.json,"]
+[INFO ] [MetricCalculator] Active code page: 65001
+[INFO ] [MetricCalculator] [INFO] *******************************
+[INFO ] [MetricCalculator] [INFO] MetricCalculator 1.2.0.0
+[INFO ] [MetricCalculator] [INFO] *******************************
+[INFO ] [MetricCalculator] [INFO] Parsing the arguments.
+[INFO ] [MetricCalculator] [INFO] - Solution file: D:\VPES\COVEREE\Tetris\Tetris.sln
+[INFO ] [MetricCalculator] [INFO] - Output path  : D:\VPES\COVEREE\Tetris\.static\TEST
+[INFO ] [MetricCalculator] 
+[INFO ] [MetricCalculator] [INFO] Open the solution file.
+[INFO ] [MetricCalculator] [INFO] Initialize data.
+[INFO ] [MetricCalculator] [INFO] Start calculating metrics.
+[INFO ] [MetricCalculator] [INFO] Start collecting information of the called function(s)
+[INFO ] [MetricCalculator] [INFO] [1/4] Tetris.GameEngine
+[INFO ] [MetricCalculator] [INFO] [2/4] Tetris.GameEngine.Test
+[INFO ] [MetricCalculator] [INFO] [3/4] Tetris.ConsoleUI
+[INFO ] [MetricCalculator] [INFO] [4/4] Tetris.DesktopUI
+[INFO ] [MetricCalculator] [INFO] Execution Time: 00:00:06
+[INFO ] [main] Collecting File committer
+[WARN ] [main] null
+[INFO ] [main] Collecting File committer
+[WARN ] [main] null
+[INFO ] [main] Collecting File committer
+[WARN ] [main] null
+[INFO ] [main] Collecting File committer
+[WARN ] [main] null
+[INFO ] [main] Updating revision.: FINISHED
+[INFO ] [main] Uploading project source file.
+[INFO ] [main] Creating defect file for upload.
+[INFO ] [main] Uploading defects.
+[INFO ] [main] Creating metric file for upload.
+[INFO ] [main] Uploading metrics.
+[INFO ] [main] Uploading analysis log.
+[INFO ] [main] Finish Analysis.
+[INFO ] [main] Writing hints in D:\VPES\COVEREE\Tetris\.hint

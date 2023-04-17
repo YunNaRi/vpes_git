@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\professional\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="D:\VPES\COVEREE\Tetris\.static\TEST\Compile\Tetris.GameEngine.Test\net45\Tetris.GameEngine.Test.dll">
+   <Modules>
+    <Module Name="tetris.gameengine.test.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">강력한 이름의 키로 'Tetris.GameEngine.Test.dll'을(를) 서명하십시오.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">'Tetris.GameEngine.Test.dll'은(는) 외부에 표시되는 형식을 노출하므로 CLSCompliant(true)로 표시하십시오.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Tetris.GameEngine.Test">
+       <Types>
+        <Type Name="BoardTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TestConstructor_Wrong_Size()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="board" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="BoardTest.cs" Line="23">'BoardTest.TestConstructor_Wrong_Size()'에서 'Board' 형식의 변수 'board'을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestFixPiece()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="BoardTest.cs" Line="30">'BoardTest.TestFixPiece()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestFixShadowPiece()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="BoardTest.cs" Line="173">'BoardTest.TestFixShadowPiece()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestGetItem_Wrong_Index_0()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="try_get_val" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="BoardTest.cs" Line="208">'BoardTest.TestGetItem_Wrong_Index_0()'에서 'int' 형식의 변수 'try_get_val'을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestGetItem_Wrong_Index_1()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="try_get_val" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="BoardTest.cs" Line="216">'BoardTest.TestGetItem_Wrong_Index_1()'에서 'int' 형식의 변수 'try_get_val'을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PieceFactoryTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TestGetPieceById()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceFactoryTest.cs" Line="22">'PieceFactoryTest.TestGetPieceById()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PieceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TestClone()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="109">'PieceTest.TestClone()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestConstructor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="13">'PieceTest.TestConstructor()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestConstructor_Wrong_Parameter()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="target" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="24">'PieceTest.TestConstructor_Wrong_Parameter()'에서 'Piece' 형식의 변수 'target'을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestGetItem()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="92">'PieceTest.TestGetItem()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestGetItem_Wrong()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="102">'PieceTest.TestGetItem_Wrong()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+            <Message Id="actual" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="103">'PieceTest.TestGetItem_Wrong()'에서 'int' 형식의 변수 'actual'을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestHeight()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="65">'PieceTest.TestHeight()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestInitPosX()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="56">'PieceTest.TestInitPosX()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestInitPosY()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="74">'PieceTest.TestInitPosY()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestMakeItShadow()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="39">'PieceTest.TestMakeItShadow()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="41">'PieceTest.TestMakeItShadow()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestRotateRight()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="30">'PieceTest.TestRotateRight()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="32">'PieceTest.TestRotateRight()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestToAray()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="48">'PieceTest.TestToAray()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="49">'PieceTest.TestToAray()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TestWidth()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Body" TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814" Status="Active" Created="2021-04-14 06:27:22Z" FixCategory="Breaking">
+             <Issue Name="Body" Certainty="25" Level="Warning" Path="D:\VPES\COVEREE\Tetris\Tetris.GameEngine.Test" File="PieceTest.cs" Line="83">'PieceTest.TestWidth()'에서 'int[,]'의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>어셈블리에는 올바른 강력한 이름을 사용해야 합니다.</Name>
+   <Description>어셈블리에 강력한 이름이 없거나, 강력한 이름이 잘못되었거나, 컴퓨터 구성 때문에 강력한 이름이 유효합니다. 어셈블리를 이러한 상태로 배포하면 안 됩니다. 가장 일반적인 원인은 다음과 같습니다. 1) 어셈블리를 서명한 후 어셈블리의 내용이 수정되었습니다. 2) 서명 프로세스를 수행하지 못했습니다. 3) 어셈블리의 서명이 연기되었습니다. 4) 생략해서는 안 되는 검사를 생략하는 레지스트리 키가 있습니다.</Description>
+   <Resolution Name="NoStrongName">강력한 이름의 키로 {0}을(를) 서명하십시오.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>CLSCompliantAttribute로 어셈블리 표시</Name>
+   <Description>어셈블리는 CLSCompliant 특성을 사용하여 CLS 규격을 명시적으로 기술해야 합니다. 이 특성이 없는 어셈블리는 CLS 규격이 아닙니다. 어셈블리, 모듈 및 형식은 어셈블리, 모듈 또는 형식의 일부가 CLS 규격이 아니어도 CLS 규격이 될 수 있습니다. 다음과 같은 규칙이 적용됩니다. 1) 해당 요소가 CLSCompliant로 표시되면 모든 비규격 멤버의 CLSCompliant 특성의 인수를 false로 설정해야 합니다. 2) CLS 비규격 멤버 각각에 대해 비교 가능한 CLS 규격 대체 멤버가 제공되어야 합니다.</Description>
+   <Resolution Name="Default">{0}은(는) 외부에 표시되는 형식을 노출하므로 CLSCompliant(true)로 표시하십시오.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="PreferJaggedArraysOverMultidimensional" Category="Microsoft.Performance" CheckId="CA1814">
+   <Name>다차원 배열보다 가변 배열을 사용하세요.</Name>
+   <Description>다차원 배열은 성능에 좋지 않은 영향을 줄 수 있으므로 가능하면 가변 배열을 사용하세요.</Description>
+   <Resolution Name="Body">{0}에서 {1}의 다차원 배열을 사용합니다. 가능하면 이 배열을 가변 배열로 바꾸세요.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182277.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="25">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>사용되지 않는 로컬 항목을 제거하십시오.</Name>
+   <Description>사용되지 않거나 메서드 구현에서 단지 할당만 되는 로컬 항목을 제거하십시오.</Description>
+   <Resolution Name="Default">{0}에서 {2} 형식의 변수 {1}을(를) 선언하는데 이 변수는 사용되지 않거나 단지 할당만 되어 있습니다. 이 변수를 사용하거나 제거하십시오.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182278.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">범주</String>
+  <String Key="Certainty">확신도</String>
+  <String Key="CollapseAll">모두 축소</String>
+  <String Key="CheckId">확인 ID</String>
+  <String Key="Error">오류</String>
+  <String Key="Errors">개 오류</String>
+  <String Key="ExpandAll">모두 확장</String>
+  <String Key="Help">도움말</String>
+  <String Key="Line">줄</String>
+  <String Key="Messages">메시지</String>
+  <String Key="LocationNotStoredInPdb">[Pdb에 위치가 저장되지 않음]</String>
+  <String Key="Project">프로젝트</String>
+  <String Key="Resolution">확인</String>
+  <String Key="Rule">규칙</String>
+  <String Key="RuleFile">규칙 파일</String>
+  <String Key="RuleDescription">규칙 설명</String>
+  <String Key="Source">소스</String>
+  <String Key="Status">상태</String>
+  <String Key="Target">대상</String>
+  <String Key="Warning">경고</String>
+  <String Key="Warnings">경고</String>
+  <String Key="ReportTitle">코드 분석 보고서</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1211' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1210' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA0001' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1217' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1216' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1213' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA0002' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1212' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1214' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1101' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1100' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1107' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1106' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1108' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1103' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1102' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1105' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1104' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1310' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1316' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1312' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1311' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1314' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1313' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1200' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1209' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1206' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1205' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1208' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1207' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1202' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1201' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1204' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1203' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1132' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1011' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1131' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1010' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1134' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1013' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1133' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1012' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1130' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SX1101' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1019' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1139' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1018' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1136' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1015' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1135' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1014' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1017' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1137' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1016' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1022' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1142' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1021' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1024' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1023' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1141' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1020' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1026' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1025' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1028' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1027' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1110' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1112' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1111' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1118' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1117' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1119' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1114' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1113' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1116' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1115' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1121' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1000' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1120' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1123' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1002' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1122' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1001' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1129' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1008' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1128' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1007' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1009' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1125' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1004' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1124' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1003' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1127' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1006' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1005' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SX1309' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1617' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1616' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1619' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1618' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1613' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1612' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1615' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1614' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1611' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1610' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1507' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1627' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1506' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1509' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1629' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1508' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1624' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1503' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1623' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1502' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1626' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1505' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1625' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1504' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1620' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1622' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1501' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1621' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1500' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SX1309S' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1609' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1606' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1605' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1608' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1607' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1602' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1601' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1604' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1600' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1651' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1414' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1411' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1410' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1413' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1412' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1309' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1308' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1305' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1304' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1307' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1306' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1300' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1303' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1302' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1639' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1518' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1638' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1517' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1519' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1635' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1514' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1634' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1513' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1637' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1516' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1636' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1515' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1510' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1633' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1512' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1511' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1640' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1408' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1649' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1407' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1404' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1403' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1648' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1406' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1405' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1642' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1400' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1641' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1520' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1402' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1643' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0062" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>규칙 집합 'D:\VPES\COVEREE\Tetris\.static\TEST\active.ruleset'에서 참조된 'SA1401' 규칙을 찾을 수 없습니다.</ExceptionMessage>
+  </Exception>
+ </Exceptions>
+</FxCopReport>

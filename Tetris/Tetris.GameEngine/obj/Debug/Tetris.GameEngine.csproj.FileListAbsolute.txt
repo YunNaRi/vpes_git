@@ -1,0 +1,35 @@
+F:\GIT_Repo\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+F:\GIT_Repo\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.pdb
+F:\GIT_Repo\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csproj.CoreCompileInputs.cache
+F:\GIT_Repo\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+F:\GIT_Repo\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.dll
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.pdb
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.xml
+C:\Users\ysgo\Desktop\STATIC-C#\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.xml
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.dll
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.pdb
+C:\Users\ysgo\Desktop\VPES\VPES2.3.2\svn\VPES_Study\COVER_EE\Tetris\Tetris.GameEngine\bin\Debug\CoverCSharpLibrary.xml
+D:\VPES\COVEREE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csprojResolveAssemblyReference.cache
+D:\VPES\COVEREE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+D:\VPES\COVEREE\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
+C:\Users\slpark\Desktop\새 폴더 (3)\vpes_git_test\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.csprojAssemblyReference.cache
+C:\Users\slpark\Desktop\새 폴더 (3)\vpes_git_test\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.dll
+C:\Users\slpark\Desktop\새 폴더 (3)\vpes_git_test\Tetris\Tetris.GameEngine\obj\Debug\Tetris.GameEngine.pdb
