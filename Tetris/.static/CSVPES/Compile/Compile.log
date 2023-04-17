@@ -1,0 +1,22 @@
+
+Project: Tetris.GameEngine
+Error: 0
+Warning: 0
+
+Project: Tetris.ConsoleUI
+D:\VPES_GIT\vpes_git\Tetris\Tetris.ConsoleUI\Program.cs(15,28): warning CS0414: TetrisConsoleUI.test123' 필드가 할당되었지만 사용되지 않았습니다.
+Error: 0
+Warning: 1
+
+Project: Tetris.DesktopUI
+Error: 0
+Warning: 0
+
+Project: Tetris.GameEngine.Test
+Error: 0
+Warning: 0
+Summary
+Compile Success: 4 Project(s).
+Compile Failed: 0 Project(s).
+Error  : 0
+Warning: 1

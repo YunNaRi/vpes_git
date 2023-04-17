@@ -1,0 +1,100 @@
+{
+  "modules": [
+    {
+      "dependencies": [ ],
+      "name": "Tetris.GameEngine",
+      "output": "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.GameEngine\\net45\\Tetris.GameEngine.dll",
+      "path": "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine",
+      "sources": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Board.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Game.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Piece.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\PieceFactory.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs"
+      ],
+      "success": true,
+      "toolVersion": "14.0"
+    },
+    {
+      "dependencies": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.GameEngine\\net45"
+      ],
+      "name": "Tetris.ConsoleUI",
+      "output": "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.ConsoleUI\\net45\\Tetris.ConsoleUI.exe",
+      "path": "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.ConsoleUI",
+      "sources": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.ConsoleUI\\Program.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs"
+      ],
+      "success": true,
+      "toolVersion": "14.0"
+    },
+    {
+      "dependencies": [ ],
+      "name": "Tetris.DesktopUI",
+      "output": "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.DesktopUI\\net45\\Tetris.DesktopUI.exe",
+      "path": "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI",
+      "sources": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Form1.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Form1.Designer.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Program.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Properties\\Resources.Designer.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.DesktopUI\\Properties\\Settings.Designer.cs"
+      ],
+      "success": true,
+      "toolVersion": "14.0"
+    },
+    {
+      "dependencies": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.GameEngine\\net45"
+      ],
+      "name": "Tetris.GameEngine.Test",
+      "output": "D:\\VPES_GIT\\vpes_git\\Tetris\\.static\\CSVPES\\Compile\\Tetris.GameEngine.Test\\net45\\Tetris.GameEngine.Test.dll",
+      "path": "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test",
+      "sources": [
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs",
+        "D:\\VPES_GIT\\vpes_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs"
+      ],
+      "success": true,
+      "toolVersion": "14.0"
+    }
+  ],
+  "visualStudios": [
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 9.0",
+      "version": "9.0"
+    },
+    {
+      "path": "c:\\Program Files (x86)\\Microsoft Visual Studio 10.0",
+      "version": "10.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 11.0",
+      "version": "11.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0",
+      "version": "12.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0",
+      "version": "14.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+      "version": "15.9"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional",
+      "version": "16.11"
+    }
+  ]
+}

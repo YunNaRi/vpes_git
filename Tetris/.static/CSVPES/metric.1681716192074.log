@@ -1,0 +1,51 @@
+[2023-04-17 오후 4:23:12] [PROGRESS] 010
+[2023-04-17 오후 4:23:12] [INFO] - Solution file: D:\VPES_GIT\vpes_git\Tetris\Tetris.sln
+[2023-04-17 오후 4:23:12] [INFO] - Output path  : D:\VPES_GIT\vpes_git\Tetris\.static\CSVPES
+
+[2023-04-17 오후 4:23:12] [PROGRESS] 020
+[2023-04-17 오후 4:23:12] [INFO] Open the solution file.
+[2023-04-17 오후 4:23:14] [INFO] Initialize data.
+[2023-04-17 오후 4:23:14] [PROGRESS] 030
+[2023-04-17 오후 4:23:14] [INFO] Start calculating metrics.
+[2023-04-17 오후 4:23:14] [PROGRESS] 040
+[2023-04-17 오후 4:23:14] [INFO] Start collecting information of the called function(s)
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting called func: 1501ms
+[2023-04-17 오후 4:23:15] [PROGRESS] 055
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting total metric: 38ms
+[2023-04-17 오후 4:23:15] [DEBUG] Set timeout as 180000 milliseconds
+[2023-04-17 오후 4:23:15] [INFO] [1/4] Tetris.GameEngine
+[2023-04-17 오후 4:23:15] [DEBUG] Checking module name...
+[2023-04-17 오후 4:23:15] [DEBUG] Module name : Tetris.GameEngine
+[2023-04-17 오후 4:23:15] [DEBUG] Calculating for 7 files...
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting file metric: 10ms
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time: 107ms
+[2023-04-17 오후 4:23:15] [PROGRESS] 068
+[2023-04-17 오후 4:23:15] [INFO] [2/4] Tetris.GameEngine.Test
+[2023-04-17 오후 4:23:15] [DEBUG] Checking module name...
+[2023-04-17 오후 4:23:15] [DEBUG] Module name : Tetris.GameEngine.Test
+[2023-04-17 오후 4:23:15] [DEBUG] Calculating for 5 files...
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting file metric: 6ms
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time: 102ms
+[2023-04-17 오후 4:23:15] [PROGRESS] 077
+[2023-04-17 오후 4:23:15] [INFO] [3/4] Tetris.ConsoleUI
+[2023-04-17 오후 4:23:15] [DEBUG] Checking module name...
+[2023-04-17 오후 4:23:15] [DEBUG] Module name : Tetris.ConsoleUI
+[2023-04-17 오후 4:23:15] [DEBUG] Calculating for 4 files...
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting file metric: 4ms
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time: 102ms
+[2023-04-17 오후 4:23:15] [PROGRESS] 086
+[2023-04-17 오후 4:23:15] [INFO] [4/4] Tetris.DesktopUI
+[2023-04-17 오후 4:23:15] [DEBUG] Checking module name...
+[2023-04-17 오후 4:23:15] [DEBUG] Module name : Tetris.DesktopUI
+[2023-04-17 오후 4:23:15] [DEBUG] Calculating for 6 files...
+[2023-04-17 오후 4:23:15] [DEBUG] The execution time of collecting file metric: 2ms
+[2023-04-17 오후 4:23:16] [DEBUG] The execution time: 103ms
+[2023-04-17 오후 4:23:16] [PROGRESS] 095
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Failure: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\Tetris.GameEngine.csproj' 파일 처리 시 Msbuild에서 실패했습니다. 메시지: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets: (2203, 5): Could not read state file "obj\Debug\Tetris.GameEngine.csproj.AssemblyReference.cache". 입력 스트림이 올바른 이진 형식이 아닙니다. 시작 콘텐츠(바이트): 4D-42-52-53-43-01-01-09-00-00-00-01-5F-43-3A-5C-50 ...
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Failure: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\Tetris.GameEngine.Test.csproj' 파일 처리 시 Msbuild에서 실패했습니다. 메시지: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets: (1810, 5): The "Microsoft.Build.Tasks.CombineTargetFrameworkInfoProperties" task could not be loaded from the assembly Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.  Confirm that the <UsingTask> declaration is correct, that the assembly and all its dependencies are available, and that the task contains a public class that implements Microsoft.Build.Framework.ITask.
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Failure: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\Tetris.GameEngine.Test.csproj' 파일 처리 시 Msbuild에서 실패했습니다. 메시지: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets: (2203, 5): Could not read state file "obj\Debug\Tetris.GameEngine.Test.csproj.AssemblyReference.cache". 입력 스트림이 올바른 이진 형식이 아닙니다. 시작 콘텐츠(바이트): 4D-42-52-53-43-01-01-02-00-00-00-01-4D-44-3A-5C-56 ...
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Warning: 일치하는 메타데이터 참조가 없는 프로젝트 참조를 찾음: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\Tetris.GameEngine.csproj
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Warning: 일치하는 메타데이터 참조가 없는 프로젝트 참조를 찾음: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\Tetris.GameEngine.csproj
+[2023-04-17 오후 4:23:16] [DEBUG] WORK_DIAG_Failure: D:\VPES_GIT\vpes_git\Tetris\Tetris.DesktopUI\Tetris.DesktopUI.csproj' 파일 처리 시 Msbuild에서 실패했습니다. 메시지: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets: (2203, 5): Could not read state file "obj\Debug\Tetris.DesktopUI.csproj.AssemblyReference.cache". 입력 스트림이 올바른 이진 형식이 아닙니다. 시작 콘텐츠(바이트): 4D-42-52-53-43-01-01-03-00-00-00-01-68-43-3A-5C-50 ...
+[2023-04-17 오후 4:23:16] [PROGRESS] 100
+[2023-04-17 오후 4:23:16] [INFO] Execution Time: 00:00:04

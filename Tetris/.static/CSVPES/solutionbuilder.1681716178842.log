@@ -1,0 +1,57 @@
+[2023-04-17 오후 4:22:58] [INFO] SetEnvVariable - MSBUILD_EXE_PATH :C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
+[2023-04-17 오후 4:22:58] [PROGRESS] 010
+[2023-04-17 오후 4:22:58] [PROGRESS] 020
+[2023-04-17 오후 4:22:58] [INFO] Open the solution file.
+[2023-04-17 오후 4:23:01] [DEBUG] WORK_DIAG_Failure: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\Tetris.GameEngine.Test.csproj' 파일 처리 시 Msbuild에서 실패했습니다. 메시지: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets: (1810, 5): The "Microsoft.Build.Tasks.CombineTargetFrameworkInfoProperties" task could not be loaded from the assembly Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.  Confirm that the <UsingTask> declaration is correct, that the assembly and all its dependencies are available, and that the task contains a public class that implements Microsoft.Build.Framework.ITask.
+[2023-04-17 오후 4:23:01] [DEBUG] WORK_DIAG_Warning: 일치하는 메타데이터 참조가 없는 프로젝트 참조를 찾음: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\Tetris.GameEngine.csproj
+[2023-04-17 오후 4:23:01] [DEBUG] WORK_DIAG_Warning: 일치하는 메타데이터 참조가 없는 프로젝트 참조를 찾음: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\Tetris.GameEngine.csproj
+[2023-04-17 오후 4:23:01] [PROGRESS] 030
+[2023-04-17 오후 4:23:01] [INFO] Open the project file(s).
+[2023-04-17 오후 4:23:01] [INFO] Collecting the data.
+[2023-04-17 오후 4:23:01] [PROGRESS] 040
+[2023-04-17 오후 4:23:01] [INFO] Start Compile.
+
+[2023-04-17 오후 4:23:01] [PROGRESS] 065
+[2023-04-17 오후 4:23:01] [INFO] Project: Tetris.GameEngine
+[2023-04-17 오후 4:23:01] [DEBUG] Set Configuration: Debug
+[2023-04-17 오후 4:23:01] [DEBUG] Set Platform: AnyCpu
+[2023-04-17 오후 4:23:02] [PROGRESS] 077
+[2023-04-17 오후 4:23:02] [INFO] Project: Tetris.ConsoleUI
+[2023-04-17 오후 4:23:02] [DEBUG] Set Configuration: Debug
+[2023-04-17 오후 4:23:02] [DEBUG] Set Platform: AnyCpu
+[2023-04-17 오후 4:23:03] [INFO] Project: Tetris.DesktopUI
+[2023-04-17 오후 4:23:03] [DEBUG] Set Configuration: Debug
+[2023-04-17 오후 4:23:03] [DEBUG] Set Platform: AnyCpu
+[2023-04-17 오후 4:23:03] [INFO] Project: Tetris.GameEngine.Test
+[2023-04-17 오후 4:23:03] [DEBUG] Set Configuration: Debug
+[2023-04-17 오후 4:23:03] [DEBUG] Set Platform: AnyCpu
+[2023-04-17 오후 4:23:03] [INFO] Compilation Finished
+[2023-04-17 오후 4:23:03] [PROGRESS] 090
+[2023-04-17 오후 4:23:03] [PROGRESS] 090
+[2023-04-17 오후 4:23:03] [INFO] assemblyName / OutPutType - Tetris.GameEngine / Library
+[2023-04-17 오후 4:23:03] [INFO] extension - .dll
+[2023-04-17 오후 4:23:03] [INFO] Project option - Tetris.GameEngine, |
+[2023-04-17 오후 4:23:03] [INFO] OutputPath - D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+[2023-04-17 오후 4:23:03] [INFO] Original Output Path: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll
+[2023-04-17 오후 4:23:03] [INFO] D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine\bin\Debug\Tetris.GameEngine.dll is exist
+[2023-04-17 오후 4:23:03] [INFO] assemblyName / OutPutType - Tetris.ConsoleUI / Exe
+[2023-04-17 오후 4:23:03] [INFO] extension - .exe
+[2023-04-17 오후 4:23:03] [INFO] Project option - Tetris.ConsoleUI, |
+[2023-04-17 오후 4:23:03] [INFO] OutputPath - D:\VPES_GIT\vpes_git\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe
+[2023-04-17 오후 4:23:03] [INFO] Original Output Path: D:\VPES_GIT\vpes_git\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe
+[2023-04-17 오후 4:23:03] [INFO] D:\VPES_GIT\vpes_git\Tetris\Tetris.ConsoleUI\bin\Debug\Tetris.ConsoleUI.exe is exist
+[2023-04-17 오후 4:23:03] [INFO] assemblyName / OutPutType - Tetris.DesktopUI / WinExe
+[2023-04-17 오후 4:23:03] [INFO] extension - .exe
+[2023-04-17 오후 4:23:03] [INFO] Project option - Tetris.DesktopUI, |
+[2023-04-17 오후 4:23:03] [INFO] OutputPath - D:\VPES_GIT\vpes_git\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe
+[2023-04-17 오후 4:23:03] [INFO] Original Output Path: D:\VPES_GIT\vpes_git\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe
+[2023-04-17 오후 4:23:03] [INFO] D:\VPES_GIT\vpes_git\Tetris\Tetris.DesktopUI\bin\Debug\Tetris.DesktopUI.exe is exist
+[2023-04-17 오후 4:23:03] [INFO] assemblyName / OutPutType - Tetris.GameEngine.Test / Library
+[2023-04-17 오후 4:23:03] [INFO] extension - .dll
+[2023-04-17 오후 4:23:03] [INFO] Project option - Tetris.GameEngine.Test, |
+[2023-04-17 오후 4:23:03] [INFO] OutputPath - D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll
+[2023-04-17 오후 4:23:03] [INFO] Original Output Path: D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll
+[2023-04-17 오후 4:23:03] [INFO] D:\VPES_GIT\vpes_git\Tetris\Tetris.GameEngine.Test\bin\Debug\Tetris.GameEngine.Test.dll is exist
+[2023-04-17 오후 4:23:03] [INFO] Create .STATICCSHARP file.
+[2023-04-17 오후 4:23:03] [PROGRESS] 100
+[2023-04-17 오후 4:23:03] [INFO] Execution TIme: 00:00:04

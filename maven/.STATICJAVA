@@ -1,0 +1,26 @@
+{
+  "rootDir": "D:\\VPES_GIT\\vpes_git\\maven",
+  "javaVersion": "1.5",
+  "modules": [
+    {
+      "moduleName": "STATIC_MAVEN",
+      "baseDir": "D:\\VPES_GIT\\vpes_git\\maven",
+      "main": {
+        "sources": [
+          "D:\\VPES_GIT\\vpes_git\\maven\\src\\main\\java"
+        ],
+        "libraries": [],
+        "binaries": [
+          "D:\\VPES_GIT\\vpes_git\\maven\\target\\classes"
+        ]
+      },
+      "test": {
+        "sources": [],
+        "libraries": [
+          "D:\\VPES_GIT\\vpes_git\\maven\\target\\classes"
+        ],
+        "binaries": []
+      }
+    }
+  ]
+}
