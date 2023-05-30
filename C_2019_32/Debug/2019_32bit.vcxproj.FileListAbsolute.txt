@@ -1,0 +1,9 @@
+C:\Users\jhka\source\repos\2019_32bit\Debug\2019_32bit.exe
+C:\Users\jhka\source\repos\2019_32bit\Debug\2019_32bit.pdb
+C:\Users\jhka\Desktop\SampleCode\OKR_SampleCode\VS\2019_32bit\Debug\2019_32bit.exe
+C:\Users\jhka\Desktop\SampleCode\OKR_SampleCode\VS\2019_32bit\Debug\2019_32bit.pdb
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\2019_32bit\Debug\2019_32bit.exe
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\2019_32bit\Debug\2019_32bit.pdb
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_32\Debug\2019_32bit.exe
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_32\Debug\2019_32bit.pdb
+D:\샘플\test_git\C_2019_32\Debug\2019_32bit.exe

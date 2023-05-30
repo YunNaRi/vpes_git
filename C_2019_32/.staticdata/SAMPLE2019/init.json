@@ -1,0 +1,82 @@
+{
+    "versions": {
+        "scheme": "1.0",
+        "csbuild": "[v22070809-STATIC_4.5.2-5-gd50812484][engine-STATIC_4.5.2-7-g61f87d4]",
+        "preprocessor": "1.0"
+    },
+    "serverURL": "10.10.111.18",
+    "projectKey": "SAMPLE2019",
+    "toolchains": [
+        {
+            "language": "c",
+            "compiler": "Microsoft VisualStudio 2019",
+            "linker": "not-used",
+            "archive": "not-used",
+            "conf": [
+                "cs_define_macro_value=_M_IX86;600",
+                "cs_define_macro_value=_WIN32;",
+                "cs_for_init_scope=outer",
+                "cs_using_std=disable",
+                "cs_plain_char=signed",
+                "cs_plain_bit_field=unsigned",
+                "cs_set_type_size=int;4",
+                "cs_set_type_size=float;4",
+                "cs_set_type_size=double;8",
+                "cs_set_type_size=long;4",
+                "cs_size_t_kind=int",
+                "microsoft_version=1926",
+                "cs_encoding",
+                "cs_replace_include_system",
+                "display_error_number"
+            ],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt",
+                "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um"
+            ]
+        },
+        {
+            "language": "cpp",
+            "compiler": "Microsoft VisualStudio 2019",
+            "linker": "not-used",
+            "archive": "not-used",
+            "conf": [
+                "cs_define_macro_value=_M_IX86;600",
+                "cs_define_macro_value=_WIN32;",
+                "cs_for_init_scope=outer",
+                "cs_using_std=disable",
+                "cs_plain_char=signed",
+                "cs_plain_bit_field=unsigned",
+                "cs_set_type_size=int;4",
+                "cs_set_type_size=float;4",
+                "cs_set_type_size=double;8",
+                "cs_set_type_size=long;4",
+                "cs_size_t_kind=int",
+                "microsoft_version=1926",
+                "cs_encoding",
+                "cs_replace_include_system",
+                "display_error_number"
+            ],
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt",
+                "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um"
+            ]
+        }
+    ],
+    "exclusions": [
+        "**/.staticdata/preinclude/*"
+    ]
+}

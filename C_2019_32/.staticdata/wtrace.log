@@ -1,0 +1,28 @@
+(17100)(    1)ME: C:\Windows\system32\conhost.exe
+(17100)(    1) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(17100)(    1) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+(17100) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(17100)(    1) + Ignored EXENAME: conhost
+(15392)(    2)ME: C:\Windows\system32\cmd.exe
+(15392)(    2) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(15392)(    2) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+(15392) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(15392)(    2) + Ignored EXENAME: cmd
+( 9656)(    3)ME: C:\Windows\system32\chcp.com
+( 9656)(    3) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+( 9656)(    3) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+( 9656) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 9656)(    3) + Ignored EXENAME: chcp
+(24528)(    4)ME: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
+(24528)(    4) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(24528)(    4) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+(24528) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(24528)(    4)ME: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
+(24528)(    4) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(24528)(    4) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+(24528) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(23384)(    5)ME: C:\Windows\system32\chcp.com
+(23384)(    5) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(23384)(    5) + WORKING: D:\基敲\test_git\C_2019_32\.staticdata
+(23384) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(23384)(    5) + Ignored EXENAME: chcp
