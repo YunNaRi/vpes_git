@@ -1,9 +1,8 @@
 {
     "capture_setting": {
         "build_hooking": true,
-        "preprocessor": "original",
-        "spec_file_path": ""
+        "preprocessor": "original"
     },
-    "last_validation_time": "0",
-    "last_capture_time": "0"
+    "last_validation_time": "2023-06-07T03:04:19.348Z",
+    "last_capture_time": "2023-06-07T03:04:19.348Z"
 }

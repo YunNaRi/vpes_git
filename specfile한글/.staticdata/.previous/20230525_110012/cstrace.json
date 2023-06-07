@@ -1,0 +1,546 @@
+{
+    "1": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\cpp\\src100000.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\cpp\\src100000.1.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "2": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\cpp\\study_sample.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\cpp\\study_sample.2.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "3": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src10.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src10.3.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "4": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src6.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src6.4.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "5": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src7.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src7.5.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "6": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src8.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src8.6.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "7": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src9.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module2\\src9.7.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "8": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src11.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src11.8.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "9": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src12.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src12.9.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "10": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src13.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src13.10.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "11": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src14.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src14.11.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "12": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src15.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module3\\src15.12.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "13": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src16.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src16.13.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "14": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src17.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src17.14.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "15": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src181.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src181.15.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "16": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src19.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src19.16.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "17": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src20.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module4\\src20.17.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "18": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src30.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src30.18.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "19": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src31.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src31.19.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "20": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src32.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src32.20.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "21": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src33.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src33.21.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "22": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src34.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module5\\src34.22.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "23": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src40.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src40.23.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "24": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src41.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src41.24.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "25": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src42.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src42.25.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "26": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src43.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src43.26.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "27": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src44.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module6\\src44.27.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "28": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src50.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src50.28.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "29": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src51.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src51.29.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "30": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src52.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src52.30.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "31": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src53.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src53.31.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    },
+    "32": {
+        "execve": [
+            "gcc",
+            [
+                "gcc",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/src\"",
+                "-I\"D:\\VPES_GIT\\vpes_git\\specfile한글/header\"",
+                "-D_CODESCROLL_STATIC_",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src54.c",
+                "-c",
+                "-o",
+                "D:\\VPES_GIT\\vpes_git\\specfile한글\\src\\module7\\src54.32.o"
+            ],
+            "D:\\VPES_GIT\\vpes_git\\specfile한글"
+        ]
+    }
+}

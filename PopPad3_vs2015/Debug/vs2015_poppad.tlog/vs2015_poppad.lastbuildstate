@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|Win32|D:\Jenkins\workspace\CT3.3.2_RCPTT\CodeScroll_3.3.2_RT\RT_SampleCode\C\VisualStudio\PopPad3_vs2015\|

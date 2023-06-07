@@ -8,8 +8,8 @@
     "COMMAND": [
         "ddd"
     ],
-    "STATIC_SERVER_ADDRESS": "211.116.223.171",
-    "PROJECT_KEY": "SPECFILE",
+    "STATIC_SERVER_ADDRESS": "10.10.111.18",
+    "PROJECT_KEY": "SPECFILE1",
     "TOOLCHAIN_FILENAME": "FreeSoftware_gcc_6.3_None_Host_CCPP.sconf",
     "PARSING": {
         "C": {

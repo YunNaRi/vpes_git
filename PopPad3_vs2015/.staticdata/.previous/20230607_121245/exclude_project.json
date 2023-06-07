@@ -1,0 +1,12 @@
+{
+    "schemaVersion": "1.0",
+    "modules": [
+        {
+            "name": "Debug-vs2015_poppad.exe",
+            "linkFlags": "\"/ERRORREPORT:QUEUE\" \"/OUT:\"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\vs2015_poppad.exe\"\" \"/INCREMENTAL\" \"/NOLOGO\" \"kernel32.lib\" \"user32.lib\" \"gdi32.lib\" \"winspool.lib\" \"comdlg32.lib\" \"advapi32.lib\" \"shell32.lib\" \"ole32.lib\" \"oleaut32.lib\" \"uuid.lib\" \"odbc32.lib\" \"odbccp32.lib\" \"/MANIFEST\" \"/MANIFESTUAC:\"level='asInvoker' uiAccess='false'\"\" \"/manifest:embed\" \"/D\" \"EBUG:FASTLINK\" \"/PDB:\"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\vs2015_poppad.pdb\"\" \"/TLBID:1\" \"/D\" \"YNAMICBASE\" \"/NXCOMPAT\" \"/IMPLIB:\"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\vs2015_poppad.lib\"\" \"/MACHINE:X64\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\POPPAD.res\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\PopFile.obj\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\PopFind.obj\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\PopFont.obj\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\PopPad.obj\" \"D:\\VPES_GIT\\vpes_git\\PopPad3_vs2015\\x64\\Debug\\PopPrnt0.obj\"",
+            "linkType": "execute",
+            "sources": [],
+            "dependencies": []
+        }
+    ]
+}

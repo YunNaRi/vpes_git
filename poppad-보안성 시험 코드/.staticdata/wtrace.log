@@ -1,0 +1,28 @@
+(24596)(    1)ME: C:\Windows\system32\conhost.exe
+(24596)(    1) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(24596)(    1) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(24596) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(24596)(    1) + Ignored EXENAME: conhost
+(22168)(    2)ME: C:\Windows\system32\cmd.exe
+(22168)(    2) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(22168)(    2) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(22168) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(22168)(    2) + Ignored EXENAME: cmd
+(23284)(    3)ME: C:\Windows\system32\chcp.com
+(23284)(    3) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(23284)(    3) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(23284) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(23284)(    3) + Ignored EXENAME: chcp
+(25976)(    4)ME: C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe
+(25976)(    4) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(25976)(    4) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(25976) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(25976)(    4)ME: C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe
+(25976)(    4) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(25976)(    4) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(25976) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(20380)(    5)ME: C:\Windows\system32\chcp.com
+(20380)(    5) + HOME: C:\Users\nryun\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.2.0\
+(20380)(    5) + WORKING: D:\VPES_GIT\vpes_git\poppad-보안성 시험 코드\.staticdata
+(20380) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(20380)(    5) + Ignored EXENAME: chcp

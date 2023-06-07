@@ -1,0 +1,12 @@
+{
+    "schemaVersion": "1.0",
+    "modules": [
+        {
+            "name": "a",
+            "linkFlags": "",
+            "linkType": "execute",
+            "sources": [],
+            "dependencies": []
+        }
+    ]
+}
