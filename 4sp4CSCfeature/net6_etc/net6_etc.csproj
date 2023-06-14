@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CscToolPath>$(MSBuildProjectDirectory)\.cs_wrapper</CscToolPath>
+    <CscToolExe>024ddf49-7a7b-497b-abcd-9466f0401bed.cmd</CscToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoverCSharpLibrary">
+      <HintPath>C:\QualityScroll-Cover-EE\cover-agent\lib\CoverCSharpLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ProjectExtensions>
+    <Cover>
+      <OrgCscPath>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe</OrgCscPath>
+      <Indexer>false</Indexer>
+      <Property>false</Property>
+      <TernaryOperator>false</TernaryOperator>
+    </Cover>
+  </ProjectExtensions>
+</Project>
