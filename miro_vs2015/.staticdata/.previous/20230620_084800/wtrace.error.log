@@ -8,13 +8,3 @@ ERROR CODE:2
 ERROR(openTheMapInSharedMemory(), PID:21356): Could not open mapping object
 ERROR CODE:2
 ==================================================================
-==================================================================
-2023/06/20_08:51:07:165
-ERROR(openTheMapInSharedMemory(), PID:21764): Could not open mapping object
-ERROR CODE:2
-==================================================================
-==================================================================
-2023/06/20_08:51:10:240
-ERROR(openTheMapInSharedMemory(), PID:21356): Could not open mapping object
-ERROR CODE:2
-==================================================================

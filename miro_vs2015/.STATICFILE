@@ -1,6 +1,6 @@
 {
     "REANALYZE": false,
-    "WORKING_DIR": "D:\\VPES_GIT\\vpes_git\\miro_vs2015\\.staticdata",
+    "WORKING_DIR": "%VPES_HOME%\\STATIC_WORKSPACE\\Auto_test_static_c\\miro_vs2015\\.staticdata",
     "COMPILER_INSTALLATION_PATH": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0"
     ],
