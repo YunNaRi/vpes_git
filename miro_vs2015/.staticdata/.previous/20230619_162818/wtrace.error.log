@@ -1,10 +1,10 @@
 ==================================================================
-2022/11/24_14:12:31:444
-ERROR(openTheMapInSharedMemory(), PID:4736): Could not open mapping object
+2023/06/19_16:27:24:781
+ERROR(openTheMapInSharedMemory(), PID:21808): Could not open mapping object
 ERROR CODE:2
 ==================================================================
 ==================================================================
-2022/11/24_14:12:32:470
-ERROR(openTheMapInSharedMemory(), PID:22060): Could not open mapping object
+2023/06/19_16:27:25:798
+ERROR(openTheMapInSharedMemory(), PID:18396): Could not open mapping object
 ERROR CODE:2
 ==================================================================

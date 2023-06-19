@@ -4,7 +4,7 @@
         "csbuild": "[v22070809-STATIC_4.5.2-5-gd50812484][engine-STATIC_4.5.2-7-g61f87d4]",
         "preprocessor": "1.0"
     },
-    "serverURL": "211.116.223.171",
+    "serverURL": "10.10.111.18",
     "projectKey": "MIRO1025",
     "toolchains": [
         {
@@ -56,6 +56,7 @@
                 "cs_set_type_size=long;4",
                 "cs_size_t_kind=int",
                 "microsoft_version=1903",
+                "cs_encoding",
                 "cs_replace_include_system",
                 "display_error_number"
             ],
