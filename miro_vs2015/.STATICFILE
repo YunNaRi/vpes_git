@@ -12,7 +12,7 @@
     ],
     "STATIC_SERVER_ADDRESS": "10.10.111.18",
     "PROJECT_KEY": "MIRO1025",
-    "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2015_None_Host_CCPP.sconf",
+    "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2015_x86-amd64_Host_CCPP.sconf",
     "PARSING": {
         "C": {
             "include": [
