@@ -5,6 +5,5 @@ miro_fun2.c(97): warning C4474: 'printf' : 서식 문자열에 전달된 인수�
   miro_fun2.c(97): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
   miro_fun.c
   코드를 생성하고 있습니다...
-  LINK : D:\VPES_GIT\vpes_git\miro_vs2015\Debug\vs2015_miro.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   vs2015_miro.vcxproj -> D:\VPES_GIT\vpes_git\miro_vs2015\Debug\vs2015_miro.exe
   vs2015_miro.vcxproj -> D:\VPES_GIT\vpes_git\miro_vs2015\Debug\vs2015_miro.pdb (Full PDB)

@@ -16,6 +16,7 @@ void map_out(char (*map)[mx])
 		}
 		fputs("\n",stdout);
 		
+		int a = 0;
 		
 	}
 	
