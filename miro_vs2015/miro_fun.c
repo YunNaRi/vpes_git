@@ -15,9 +15,7 @@ void map_out(char (*map)[mx])
 			printf("  %c",*(*(map+numy)+numx));
 		}
 		fputs("\n",stdout);
-		
-		int a = 0;
-		int b =0;
+
 		
 	}
 	
