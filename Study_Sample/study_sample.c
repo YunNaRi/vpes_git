@@ -16,9 +16,9 @@ struct { int test_yoon_a ; } ;
 static struct { int test_yoon_a ; } ;
 #endif
 
-/*char	*e1[] = {"", "White", "", "", "Black", "", "", "Gray", "Blue"};*/
-/*char	*e2[] = {"Kim", "Lee", "Park"};*/
-/*char	*e3[] = {"On", "Off"} ;*/
+//char	*e1[] = {"", "White", "", "", "Black", "", "", "Gray", "Blue"};
+//char	*e2[] = {"Kim", "Lee", "Park"};
+//char	*e3[] = {"On", "Off"} ;
 /*int test_stub0();*/
 int test_stub1();
 
@@ -65,6 +65,13 @@ unsigned char timeOutFunc()
 	return i;
 }
 
+
+void timeout(){
+	while(1){
+
+	}
+}
+
 void stubFunc0 (sst_extern_A) {
 	fl_var=sst_extern_A-10;
 	if(test_stub0() == TEST_SUCCESS_VALUE){
@@ -76,24 +83,24 @@ void stubFunc0 (sst_extern_A) {
 
 }
 /**/
-/*
-int stubFunc1 () {
-	int ret = test_stub1();
-	switch(ret){
-	case 1:
-		printf("Return value is 1\n");
-		break;
-	case 2:
-		printf("Return value is 2\n");
-		break;
-	case 3:
-		printf("Return value is 3\n");
-		break;
-	default:
-		return 1;
-	}
-	return 0;
-}*/
+
+//int stubFunc1 () {
+//	int ret = test_stub1();
+//	switch(ret){
+//	case 1:
+//		printf("Return value is 1\n");
+//		break;
+//	case 2:
+//		printf("Return value is 2\n");
+//		break;
+//	case 3:
+//		printf("Return value is 3\n");
+//		break;
+//	default:
+//		return 1;
+//	}
+//	return 0;
+//}
 
 int abc(int a){
 	if(abc_1(a) > 0 ){
@@ -111,13 +118,12 @@ int abc(int a){
 	timeout();
 	return stubFunc2 ();
 }
-int ab_1(a){
+int abc_1(a){
 	return 1;
 }
-int pTest(int * a){
-	if(a > 0 ){
+int pTest(int * aa){
+	if(aa > 0 ){
 		printf("Return value is 1\n");
-
 		if(stubFunc1 () != 0){
 			printf("Return value is 3\n");
 		}
@@ -144,16 +150,20 @@ main( int argc, char* argv[] )
 
 	printf("=========== Input end ===================\n");
 	}
-	api12 ( 'a' ) ;
+	if(api12 ( 'a' )==0){
+		printf("true");
+	}else{
+		printf("false");
+	}
+
 	printf("\n=========== int main( int argc, char* argv[] ): Output ===================\n");
 	printf("no explicit return\n");
 	printf("=========== Output end ===================\n");
 }
 
-void api(int a, char b, float c, unsigned long int d, long double e)
+void api1(int a, char b, float c, unsigned long int d, long double e)
 {
 	long double	ret;
-
 	printf("=========== void api1(int a, char b, float c, unsigned long int d, long double e) Input ===================\n");
 	printf("int a: %d\n", a);
 	printf("char b: %c\n", b);
@@ -162,40 +172,26 @@ void api(int a, char b, float c, unsigned long int d, long double e)
 	printf("long double e: %Le\n", e);
 	printf("=========== Input end ===================\n");
 
-
 	ret = 1.0;
 	
 	while ( b != 0 ) {
-		if ( a < 10 )
-		{
+		if ( a < 11 )
 			ret -= a;
-		}
 		else
-		{
 			ret += a;
-		}
 		if ( d > 50 )
-		{
 			ret += d;
-		}
 		b--;
 	}
 	
 	if ( d == 0 && global0 == 0)
-	{
 		ret *= d;
-	}
-
-	if ( e != 0 && stubFunc1() != 1)
-	{
-		ret *= e;
-	}
-	else
-	{
-		ret *= 2;
-	}
 	
-
+	if ( e != 0 && stubFunc1() != 1)
+		ret *= e;
+	else
+		ret *= 2;
+	
 	printf("\n=========== enum enm3 api2(enum enm1 a, Enm2 b) Output ===================\n");
 	printf("long double :  %Le\n", ret ) ;
 	printf("=========== Output end ===================\n");
@@ -207,7 +203,7 @@ enum enm3 api2(enum enm1 a, Enm2 b)
 	
 	printf("=========== enum enm3 api2(enum enm1 a, Enm2 b) Input ===================\n");
 	printf("enum enm1 (1,4,7,8): %d\n", a );
-	/*printf("enum enm1 (White, Black, Gray, Blue): %s\n", e1[a]);*/
+	//printf("enum enm1 (White, Black, Gray, Blue): %s\n", e1[a]);
 	printf("Enm2 (0,1,2): %d\n", b);
 	/*printf("Enm2 (Kim, Lee, Park): %s\n", e2[b]);*/
 
@@ -220,13 +216,13 @@ enum enm3 api2(enum enm1 a, Enm2 b)
 		printf("MC/DC Success.\n");
 	}
 
-	if((a == 1) && (b == 4)){
+	if((a == 1) && (b == 4)){ // unreachable
 		printf("MC/DC Success.\n");
 	}
 
 	printf("\n=========== enum enm3 api2(enum enm1 a, Enm2 b) Output ===================\n");
 	printf("enum enm3 (0,1): %d\n", ret);
-	/*printf("enum enm3 (On, Off): %s\n", e3[ret]);*/
+	//printf("enum enm3 (On, Off): %s\n", e3[ret]);
 	printf("=========== Output end ===================\n");
 	return ret;
 }
@@ -279,7 +275,7 @@ int fibonacci_fail(int index){
 	return fibonacci_fail(index - 1) + fibonacci_fail(index - 1);
 }
 
-int mcdcError(int a, int b, int c, int d){
+int mcdcErrorte(int a, int b, int c, int d){
  if(a==1){
   d=0;
  }
