@@ -1,0 +1,60 @@
+[2023-11-21 오후 2:08:02] [DEBUG] 
+[2023-11-21 오후 2:08:02] [INFO] Solution file: Tetris.sln
+[2023-11-21 오후 2:08:02] [INFO] Output path  : D:\VPES_GIT\git\vpes_git\Tetris\.static\TETRIS\1700543281755.stylecop.json
+[2023-11-21 오후 2:08:02] [PROGRESS] 20
+[2023-11-21 오후 2:08:04] [INFO] Loaded Tetris.sln in 2102ms
+[2023-11-21 오후 2:08:04] [PROGRESS] 40
+[2023-11-21 오후 2:08:04] [INFO] Start Analysis
+[2023-11-21 오후 2:08:04] [DEBUG] Set Configuration: Release
+[2023-11-21 오후 2:08:04] [DEBUG] Set Platform: AnyCpu
+[2023-11-21 오후 2:08:04] [DEBUG] Set Platform: AnyCpu
+[2023-11-21 오후 2:08:04] [DEBUG] Set Configuration: Release
+[2023-11-21 오후 2:08:04] [DEBUG] Set Platform: AnyCpu
+[2023-11-21 오후 2:08:05] [INFO] Finish Analysis
+[2023-11-21 오후 2:08:05] [PROGRESS] 75
+[2023-11-21 오후 2:08:05] [INFO] SA1000: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1001: 4 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1003: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1005: 25 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1008: 17 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1009: 28 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1012: 4 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1013: 4 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1024: 3 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1025: 2 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1028: 49 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1101: 80 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1106: 2 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1107: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1119: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1124: 28 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1200: 51 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1201: 7 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1202: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1204: 2 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1208: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1210: 5 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1214: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1309: 21 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1311: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1400: 6 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1413: 2 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1500: 8 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1503: 4 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1508: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1513: 29 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1515: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1516: 6 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1518: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1600: 125 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1601: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1602: 4 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1611: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1629: 14 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1633: 19 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1642: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] SA1649: 1 instances
+[2023-11-21 오후 2:08:05] [INFO] Found 564 diagnostics in 1341ms
+[2023-11-21 오후 2:08:05] [INFO] Write diagnostics to output file
+[2023-11-21 오후 2:08:05] [PROGRESS] 100
+[2023-11-21 오후 2:08:05] [INFO] Execution Time: 00:00:03
